@@ -35,7 +35,4 @@ class FrontPageConfigurator {
         router.viewController = viewController
         viewController.router = router
     }
-
-    
-    
 }

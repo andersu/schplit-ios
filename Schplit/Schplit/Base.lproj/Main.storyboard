@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Create Bill View Controller-->
+        <!--New bill-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="CreateBillViewController" id="BYZ-38-t0r" customClass="CreateBillViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,6 +30,12 @@
                             <constraint firstAttribute="trailing" secondItem="foZ-CK-AKZ" secondAttribute="trailing" id="uEI-CO-Y2I"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="New bill" id="8tp-Mw-bUL">
+                        <barButtonItem key="backBarButtonItem" title=" " id="mG2-Xu-Bkw"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="createBillView" destination="foZ-CK-AKZ" id="ucK-QB-PbN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,6 +86,9 @@
                         <color key="backgroundColor" red="0.1058823529" green="0.0" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.1058823529" green="0.0" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

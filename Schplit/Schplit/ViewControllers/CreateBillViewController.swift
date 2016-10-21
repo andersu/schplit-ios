@@ -8,10 +8,36 @@
 
 import UIKit
 
-class CreateBillViewController: UIViewController {
+protocol CreateBillViewControllerOutput: class {
+    func addSchplitterButtonClicked(name: String?)
+}
 
+class CreateBillViewController: UIViewController {
+    @IBOutlet weak var createBillView: CreateBillView!
+    
+    var interactor: CreateBillViewControllerOutput!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        CreateBillConfigurator.sharedInstance.configure(viewController: self)
+        createBillView.viewController = self
+    }
+}
+
+extension CreateBillViewController: CreateBillViewDelegate {
+    func addSchplitterButtonClicked(name: String?) {
+        interactor.addSchplitterButtonClicked(name: name)
+    }
+    
+    func createBillButtonClicked() {
+        
+    }
+}
+
+extension CreateBillViewController: CreateBillPresenterOutput {
+    func updateViews(viewModel: CreateBillViewModel) {
+        createBillView.updateViews(viewModel: viewModel)
     }
 }
 
