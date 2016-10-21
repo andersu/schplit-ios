@@ -14,7 +14,7 @@ protocol CreateBillViewDelegate {
     func nameTextFieldDidEndEditing(text: String?)
     
     func addSchplitterButtonClicked(name: String?)
-    func createBillButtonClicked()
+    func createBillButtonClicked(bill: Bill)
 }
 
 class CreateBillView: NibLoadingView {
@@ -37,7 +37,10 @@ class CreateBillView: NibLoadingView {
     }
     
     @IBAction func createBillButtonClicked(_ sender: UIButton) {
-        viewController.createBillButtonClicked()
+        if let title = viewModel.titleText {
+            let bill = Bill(title: title, names: viewModel.names)
+            viewController.createBillButtonClicked(bill: bill)
+        }
     }
     
     func updateViews(viewModel: CreateBillViewModel) {

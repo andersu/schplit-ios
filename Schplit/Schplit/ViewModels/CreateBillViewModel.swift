@@ -9,7 +9,9 @@
 import Foundation
 
 func ==(lhs: CreateBillViewModel, rhs: CreateBillViewModel) -> Bool {
-    return lhs.names == rhs.names
+    return lhs.titleText == rhs.titleText &&
+        lhs.nameText == rhs.nameText &&
+        lhs.names == rhs.names
 }
 
 class CreateBillViewModel: Equatable {

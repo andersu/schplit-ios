@@ -43,6 +43,10 @@ extension CreateBillPresenter: CreateBillInteractorOutput {
         }
     }
     
+    func billSaved() {
+        
+    }
+    
     private func updateViewsOnMainThread() {
         DispatchQueue.main.async {
             self.viewController.updateViews(viewModel: self.viewModel)

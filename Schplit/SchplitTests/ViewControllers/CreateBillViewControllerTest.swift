@@ -45,11 +45,21 @@ class CreateBillViewControllerTest: XCTestCase {
         XCTAssertEqual(name, mockCreateBillInteractor.nameFromAddSchplitterButtonClicked)
     }
     
+    // MARK: addSchplitterButtonClicked
+    func testCreateBillButtonClicked_callsInteractor_withBill() {
+        let bill = Bill(title: "title", names: ["name", "name2"])
+        
+        createBillViewController.createBillButtonClicked(bill: bill)
+        
+        XCTAssertEqual(bill, mockCreateBillInteractor.billFromCreateBillButtonClicked)
+    }
+    
     // MARK: Mocks
     class MockCreateBillInteractor: CreateBillViewControllerOutput {
         private (set) var textFromTitleTextField: String?
         private (set) var textFromNameTextField: String?
         private (set) var nameFromAddSchplitterButtonClicked: String?
+        private (set) var billFromCreateBillButtonClicked: Bill?
         
         func titleTextFieldDidEndEditing(text: String?) {
             textFromTitleTextField = text
@@ -62,5 +72,10 @@ class CreateBillViewControllerTest: XCTestCase {
         func addSchplitterButtonClicked(name: String?) {
             nameFromAddSchplitterButtonClicked = name
         }
+        
+        func createBillButtonClicked(bill: Bill) {
+            billFromCreateBillButtonClicked = bill
+        }
+
     }
 }

@@ -22,8 +22,10 @@ class CreateBillConfigurator {
      
         /*let client = HTTPClient()
         let chatService = BillService(client: client)*/
-         
-        let interactor = CreateBillInteractor()
+        
+        let billRepository = BillRepository()
+        let billService = BillService(billRepository: billRepository)
+        let interactor = CreateBillInteractor(billService: billService)
         interactor.presenter = presenter
          
         viewController.interactor = interactor

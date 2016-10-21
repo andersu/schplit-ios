@@ -12,6 +12,7 @@ protocol CreateBillViewControllerOutput: class {
     func titleTextFieldDidEndEditing(text: String?)
     func nameTextFieldDidEndEditing(text: String?)
     func addSchplitterButtonClicked(name: String?)
+    func createBillButtonClicked(bill: Bill)
 }
 
 class CreateBillViewController: UIViewController {
@@ -40,8 +41,8 @@ extension CreateBillViewController: CreateBillViewDelegate {
         interactor.addSchplitterButtonClicked(name: name)
     }
     
-    func createBillButtonClicked() {
-        
+    func createBillButtonClicked(bill: Bill) {
+        interactor.createBillButtonClicked(bill: bill)
     }
 }
 

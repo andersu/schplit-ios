@@ -32,6 +32,10 @@
 		9FC1AC221DBAB1E30024FDBE /* SchplitterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC211DBAB1E30024FDBE /* SchplitterCell.swift */; };
 		9FC1AC241DBAB2290024FDBE /* SchplitterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1AC231DBAB2290024FDBE /* SchplitterCell.xib */; };
 		9FC1AC261DBAC25F0024FDBE /* AsyncTestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC251DBAC25F0024FDBE /* AsyncTestUtil.swift */; };
+		9FC1AC291DBAC3F80024FDBE /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC281DBAC3F80024FDBE /* Bill.swift */; };
+		9FC1AC2C1DBAC5AF0024FDBE /* BillRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC2B1DBAC5AF0024FDBE /* BillRepository.swift */; };
+		9FC1AC2F1DBAC5EF0024FDBE /* RealmBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC2E1DBAC5EF0024FDBE /* RealmBill.swift */; };
+		9FC1AC321DBAC82D0024FDBE /* BillService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC311DBAC82D0024FDBE /* BillService.swift */; };
 		C67B65AD32C8F86313649C76 /* Pods_SchplitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7941BC193422552E5543FD0B /* Pods_SchplitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +84,10 @@
 		9FC1AC211DBAB1E30024FDBE /* SchplitterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchplitterCell.swift; sourceTree = "<group>"; };
 		9FC1AC231DBAB2290024FDBE /* SchplitterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchplitterCell.xib; sourceTree = "<group>"; };
 		9FC1AC251DBAC25F0024FDBE /* AsyncTestUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncTestUtil.swift; sourceTree = "<group>"; };
+		9FC1AC281DBAC3F80024FDBE /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		9FC1AC2B1DBAC5AF0024FDBE /* BillRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillRepository.swift; sourceTree = "<group>"; };
+		9FC1AC2E1DBAC5EF0024FDBE /* RealmBill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmBill.swift; sourceTree = "<group>"; };
+		9FC1AC311DBAC82D0024FDBE /* BillService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +153,11 @@
 				9FC1AC0D1DBAA6A10024FDBE /* Interactors */,
 				9FC1AC121DBAA7CD0024FDBE /* Presenters */,
 				9FC1AC151DBAA8300024FDBE /* ViewModels */,
+				9FC1AC271DBAC3E50024FDBE /* Models */,
+				9FC1AC301DBAC81A0024FDBE /* Services */,
+				9FC1AC2A1DBAC5970024FDBE /* Repositories */,
 				9FC1AC031DBA99540024FDBE /* Routers */,
+				9FC1AC2D1DBAC5DB0024FDBE /* RealmModels */,
 				9FC1AC061DBA99E10024FDBE /* Configurators */,
 			);
 			path = Schplit;
@@ -291,6 +303,38 @@
 				9FC1AC231DBAB2290024FDBE /* SchplitterCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		9FC1AC271DBAC3E50024FDBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1AC281DBAC3F80024FDBE /* Bill.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FC1AC2A1DBAC5970024FDBE /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1AC2B1DBAC5AF0024FDBE /* BillRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9FC1AC2D1DBAC5DB0024FDBE /* RealmModels */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1AC2E1DBAC5EF0024FDBE /* RealmBill.swift */,
+			);
+			path = RealmModels;
+			sourceTree = "<group>";
+		};
+		9FC1AC301DBAC81A0024FDBE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1AC311DBAC82D0024FDBE /* BillService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		D12EF201340C2237B9357660 /* Frameworks */ = {
@@ -512,15 +556,19 @@
 				9FC1ABF61DBA95DA0024FDBE /* NibLoadingView.swift in Sources */,
 				9FC1ABFD1DBA96B30024FDBE /* FrontPageViewController.swift in Sources */,
 				9FC1ABF91DBA96250024FDBE /* CreateBillView.swift in Sources */,
+				9FC1AC321DBAC82D0024FDBE /* BillService.swift in Sources */,
 				9FC1AC171DBAA8480024FDBE /* CreateBillViewModel.swift in Sources */,
+				9FC1AC291DBAC3F80024FDBE /* Bill.swift in Sources */,
 				9FC1ABF31DBA956C0024FDBE /* CreateBillViewController.swift in Sources */,
 				9FC1ABCD1DBA93F80024FDBE /* AppDelegate.swift in Sources */,
 				9FC1AC111DBAA74D0024FDBE /* CreateBillConfigurator.swift in Sources */,
+				9FC1AC2C1DBAC5AF0024FDBE /* BillRepository.swift in Sources */,
 				9FC1AC001DBA988C0024FDBE /* FrontPageView.swift in Sources */,
 				9FC1AC051DBA99690024FDBE /* FrontPageRouter.swift in Sources */,
 				9FC1AC141DBAA7E80024FDBE /* CreateBillPresenter.swift in Sources */,
 				9FC1AC0F1DBAA7220024FDBE /* CreateBillInteractor.swift in Sources */,
 				9FC1AC221DBAB1E30024FDBE /* SchplitterCell.swift in Sources */,
+				9FC1AC2F1DBAC5EF0024FDBE /* RealmBill.swift in Sources */,
 				9FC1AC081DBA9A080024FDBE /* FrontPageConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

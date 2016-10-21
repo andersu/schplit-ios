@@ -12,10 +12,17 @@ protocol CreateBillInteractorOutput {
     func titleTextFieldDidEndEditing(text: String?)
     func nameTextFieldDidEndEditing(text: String?)
     func addSchplitterButtonClicked(name: String?)
+    
+    func billSaved()
 }
 
 class CreateBillInteractor {
     var presenter: CreateBillInteractorOutput!
+    var billService: BillService
+    
+    init(billService: BillService) {
+        self.billService = billService
+    }
 }
 
 extension CreateBillInteractor: CreateBillViewControllerOutput {
@@ -29,5 +36,11 @@ extension CreateBillInteractor: CreateBillViewControllerOutput {
 
     func addSchplitterButtonClicked(name: String?) {
         presenter.addSchplitterButtonClicked(name: name)
+    }
+    
+    func createBillButtonClicked(bill: Bill) {
+        billService.saveBill(bill: bill)
+        
+        presenter.billSaved()
     }
 }
