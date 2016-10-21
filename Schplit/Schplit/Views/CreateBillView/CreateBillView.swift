@@ -10,6 +10,9 @@ import Foundation
 import UIKit
 
 protocol CreateBillViewDelegate {
+    func titleTextFieldDidEndEditing(text: String?)
+    func nameTextFieldDidEndEditing(text: String?)
+    
     func addSchplitterButtonClicked(name: String?)
     func createBillButtonClicked()
 }
@@ -71,5 +74,17 @@ extension CreateBillView: UITableViewDataSource {
         cell.populate(name: viewModel.names[indexPath.row])
         
         return cell
+    }
+}
+
+extension CreateBillView: UITextFieldDelegate {
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        if textField == titleTextField {
+            viewController.titleTextFieldDidEndEditing(text: textField.text)
+        }
+        
+        if textField == nameTextField {
+            viewController.nameTextFieldDidEndEditing(text: textField.text)
+        }
     }
 }

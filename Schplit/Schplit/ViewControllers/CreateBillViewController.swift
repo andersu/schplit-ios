@@ -9,6 +9,8 @@
 import UIKit
 
 protocol CreateBillViewControllerOutput: class {
+    func titleTextFieldDidEndEditing(text: String?)
+    func nameTextFieldDidEndEditing(text: String?)
     func addSchplitterButtonClicked(name: String?)
 }
 
@@ -26,6 +28,14 @@ class CreateBillViewController: UIViewController {
 }
 
 extension CreateBillViewController: CreateBillViewDelegate {
+    func titleTextFieldDidEndEditing(text: String?) {
+        interactor.titleTextFieldDidEndEditing(text: text)
+    }
+    
+    func nameTextFieldDidEndEditing(text: String?) {
+        interactor.nameTextFieldDidEndEditing(text: text)
+    }
+    
     func addSchplitterButtonClicked(name: String?) {
         interactor.addSchplitterButtonClicked(name: name)
     }

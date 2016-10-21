@@ -19,13 +19,46 @@ class CreateBillPresenterTest: XCTestCase {
         createBillPresenter.viewController = mockCreateBillViewController
     }
     
+    // MARK: titleTextFieldDidEndEditing
+    func testTitleTextFieldDidEndEditing_callsViewControllerUpdateViews_withViewModel_withTextAsTitleText() {
+        let text = "text"
+        let expectation1 = expectation(description: "assertsPassed")
+        
+        createBillPresenter.titleTextFieldDidEndEditing(text: text)
+        
+        AsyncTestUtil.check(expectation1, everyMilisec: 1) { () -> Bool in
+            return text == self.mockCreateBillViewController.viewModelFromUpdateViews!.titleText
+        }
+        
+        waitForExpectations(timeout: 5.0, handler: nil)
+    }
+    
+    // MARK: nameTextFieldDidEndEditing
+    func testNameTitleTextFieldDidEndEditing_callsViewControllerUpdateViews_withViewModel_withTextAsNameText() {
+        let text = "text"
+        let expectation1 = expectation(description: "assertsPassed")
+        
+        createBillPresenter.nameTextFieldDidEndEditing(text: text)
+        
+        AsyncTestUtil.check(expectation1, everyMilisec: 1) { () -> Bool in
+            return text == self.mockCreateBillViewController.viewModelFromUpdateViews!.nameText
+        }
+        
+        waitForExpectations(timeout: 5.0, handler: nil)
+    }
+    
     // MARK: addSchplitterButtonClicked
     func testAddSchplitterButtonClicked_callsViewControllerUpdateViews_withViewModel_withNameLastInNames() {
         let name = "name"
+        let expectation1 = expectation(description: "assertsPassed")
         
         createBillPresenter.addSchplitterButtonClicked(name: name)
         
-        XCTAssertTrue(mockCreateBillViewController.viewModelFromUpdateViews!.names.last == name)
+        AsyncTestUtil.check(expectation1, everyMilisec: 1) { () -> Bool in
+            return self.mockCreateBillViewController.viewModelFromUpdateViews!.names.last == name
+        }
+        
+        waitForExpectations(timeout: 5.0, handler: nil)
     }
     
     // MARK: Mocks

@@ -9,6 +9,8 @@
 import Foundation
 
 protocol CreateBillInteractorOutput {
+    func titleTextFieldDidEndEditing(text: String?)
+    func nameTextFieldDidEndEditing(text: String?)
     func addSchplitterButtonClicked(name: String?)
 }
 
@@ -17,6 +19,14 @@ class CreateBillInteractor {
 }
 
 extension CreateBillInteractor: CreateBillViewControllerOutput {
+    func titleTextFieldDidEndEditing(text: String?) {
+        presenter.titleTextFieldDidEndEditing(text: text)
+    }
+    
+    func nameTextFieldDidEndEditing(text: String?) {
+        presenter.nameTextFieldDidEndEditing(text: text)
+    }
+
     func addSchplitterButtonClicked(name: String?) {
         presenter.addSchplitterButtonClicked(name: name)
     }

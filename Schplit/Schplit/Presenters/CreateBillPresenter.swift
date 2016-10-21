@@ -22,11 +22,30 @@ class CreateBillPresenter {
 }
 
 extension CreateBillPresenter: CreateBillInteractorOutput {
+    func titleTextFieldDidEndEditing(text: String?) {
+        viewModel.titleText = text
+        
+        updateViewsOnMainThread()
+    }
+    
+    func nameTextFieldDidEndEditing(text: String?) {
+        viewModel.nameText = text
+        
+        updateViewsOnMainThread()
+    }
+    
     func addSchplitterButtonClicked(name: String?) {
         if name != nil && !name!.isEmpty {
             viewModel.names.append(name!)
             viewModel.nameText = nil
-            viewController.updateViews(viewModel: viewModel)
+            
+            updateViewsOnMainThread()
+        }
+    }
+    
+    private func updateViewsOnMainThread() {
+        DispatchQueue.main.async {
+            self.viewController.updateViews(viewModel: self.viewModel)
         }
     }
 }

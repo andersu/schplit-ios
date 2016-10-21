@@ -31,6 +31,7 @@
 		9FC1AC1F1DBAABEF0024FDBE /* CreateBillPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC1E1DBAABEF0024FDBE /* CreateBillPresenterTest.swift */; };
 		9FC1AC221DBAB1E30024FDBE /* SchplitterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC211DBAB1E30024FDBE /* SchplitterCell.swift */; };
 		9FC1AC241DBAB2290024FDBE /* SchplitterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1AC231DBAB2290024FDBE /* SchplitterCell.xib */; };
+		9FC1AC261DBAC25F0024FDBE /* AsyncTestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC251DBAC25F0024FDBE /* AsyncTestUtil.swift */; };
 		C67B65AD32C8F86313649C76 /* Pods_SchplitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7941BC193422552E5543FD0B /* Pods_SchplitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		9FC1AC1E1DBAABEF0024FDBE /* CreateBillPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillPresenterTest.swift; sourceTree = "<group>"; };
 		9FC1AC211DBAB1E30024FDBE /* SchplitterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchplitterCell.swift; sourceTree = "<group>"; };
 		9FC1AC231DBAB2290024FDBE /* SchplitterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchplitterCell.xib; sourceTree = "<group>"; };
+		9FC1AC251DBAC25F0024FDBE /* AsyncTestUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncTestUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				9FC1AC091DBA9E790024FDBE /* ViewControllers */,
 				9FC1AC1A1DBAAA670024FDBE /* Interactors */,
 				9FC1AC1B1DBAAA7A0024FDBE /* Presenters */,
+				9FC1AC251DBAC25F0024FDBE /* AsyncTestUtil.swift */,
 			);
 			path = SchplitTests;
 			sourceTree = "<group>";
@@ -530,6 +533,7 @@
 				9FC1AC0B1DBA9E8F0024FDBE /* FrontPageViewControllerTest.swift in Sources */,
 				9FC1AC1D1DBAAA920024FDBE /* CreateBillInteractorTest.swift in Sources */,
 				9FC1AC1F1DBAABEF0024FDBE /* CreateBillPresenterTest.swift in Sources */,
+				9FC1AC261DBAC25F0024FDBE /* AsyncTestUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
