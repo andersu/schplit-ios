@@ -9,7 +9,7 @@
         <!--New bill-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="CreateBillViewController" id="BYZ-38-t0r" customClass="CreateBillViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateBillViewController" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="CreateBillViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -80,7 +80,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZzT-tF-7PI" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="oAV-a5-4EU">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oAV-a5-4EU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.1058823529" green="0.0" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>

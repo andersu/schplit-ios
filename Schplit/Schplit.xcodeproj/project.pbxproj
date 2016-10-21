@@ -29,6 +29,8 @@
 		9FC1AC191DBAA8E80024FDBE /* CreateBillViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC181DBAA8E80024FDBE /* CreateBillViewControllerTest.swift */; };
 		9FC1AC1D1DBAAA920024FDBE /* CreateBillInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC1C1DBAAA920024FDBE /* CreateBillInteractorTest.swift */; };
 		9FC1AC1F1DBAABEF0024FDBE /* CreateBillPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC1E1DBAABEF0024FDBE /* CreateBillPresenterTest.swift */; };
+		9FC1AC221DBAB1E30024FDBE /* SchplitterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC211DBAB1E30024FDBE /* SchplitterCell.swift */; };
+		9FC1AC241DBAB2290024FDBE /* SchplitterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1AC231DBAB2290024FDBE /* SchplitterCell.xib */; };
 		C67B65AD32C8F86313649C76 /* Pods_SchplitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7941BC193422552E5543FD0B /* Pods_SchplitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,8 @@
 		9FC1AC181DBAA8E80024FDBE /* CreateBillViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillViewControllerTest.swift; sourceTree = "<group>"; };
 		9FC1AC1C1DBAAA920024FDBE /* CreateBillInteractorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillInteractorTest.swift; sourceTree = "<group>"; };
 		9FC1AC1E1DBAABEF0024FDBE /* CreateBillPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillPresenterTest.swift; sourceTree = "<group>"; };
+		9FC1AC211DBAB1E30024FDBE /* SchplitterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchplitterCell.swift; sourceTree = "<group>"; };
+		9FC1AC231DBAB2290024FDBE /* SchplitterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchplitterCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,7 @@
 		9FC1ABF71DBA95F00024FDBE /* CreateBillView */ = {
 			isa = PBXGroup;
 			children = (
+				9FC1AC201DBAB1CF0024FDBE /* Cells */,
 				9FC1ABF81DBA96250024FDBE /* CreateBillView.swift */,
 				9FC1ABFA1DBA962E0024FDBE /* CreateBillView.xib */,
 			);
@@ -274,6 +279,15 @@
 				9FC1AC1E1DBAABEF0024FDBE /* CreateBillPresenterTest.swift */,
 			);
 			path = Presenters;
+			sourceTree = "<group>";
+		};
+		9FC1AC201DBAB1CF0024FDBE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1AC211DBAB1E30024FDBE /* SchplitterCell.swift */,
+				9FC1AC231DBAB2290024FDBE /* SchplitterCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		D12EF201340C2237B9357660 /* Frameworks */ = {
@@ -379,6 +393,7 @@
 				9FC1ABDA1DBA93F80024FDBE /* LaunchScreen.storyboard in Resources */,
 				9FC1AC021DBA98950024FDBE /* FrontPageView.xib in Resources */,
 				9FC1ABFB1DBA962E0024FDBE /* CreateBillView.xib in Resources */,
+				9FC1AC241DBAB2290024FDBE /* SchplitterCell.xib in Resources */,
 				9FC1ABD71DBA93F80024FDBE /* Assets.xcassets in Resources */,
 				9FC1ABD21DBA93F80024FDBE /* Main.storyboard in Resources */,
 			);
@@ -502,6 +517,7 @@
 				9FC1AC051DBA99690024FDBE /* FrontPageRouter.swift in Sources */,
 				9FC1AC141DBAA7E80024FDBE /* CreateBillPresenter.swift in Sources */,
 				9FC1AC0F1DBAA7220024FDBE /* CreateBillInteractor.swift in Sources */,
+				9FC1AC221DBAB1E30024FDBE /* SchplitterCell.swift in Sources */,
 				9FC1AC081DBA9A080024FDBE /* FrontPageConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

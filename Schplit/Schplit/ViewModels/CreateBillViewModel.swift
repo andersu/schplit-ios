@@ -13,5 +13,7 @@ func ==(lhs: CreateBillViewModel, rhs: CreateBillViewModel) -> Bool {
 }
 
 class CreateBillViewModel: Equatable {
+    var titleText: String?
+    var nameText: String?
     var names: [String] = []
 }

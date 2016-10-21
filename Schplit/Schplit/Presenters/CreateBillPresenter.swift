@@ -23,8 +23,9 @@ class CreateBillPresenter {
 
 extension CreateBillPresenter: CreateBillInteractorOutput {
     func addSchplitterButtonClicked(name: String?) {
-        if name != nil {
+        if name != nil && !name!.isEmpty {
             viewModel.names.append(name!)
+            viewModel.nameText = nil
             viewController.updateViews(viewModel: viewModel)
         }
     }
