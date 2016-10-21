@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="972" y="37.331334332833585"/>
         </scene>
-        <!--Front Page View Controller-->
+        <!--Bills-->
         <scene sceneID="BPq-fx-GFU">
             <objects>
-                <viewController id="qOp-be-ei0" customClass="FrontPageViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="qOp-be-ei0" customClass="FrontPageViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rII-Po-C98"/>
                         <viewControllerLayoutGuide type="bottom" id="rtf-mb-dqO"/>
@@ -65,10 +65,10 @@
                             <constraint firstItem="GU1-Gm-y8z" firstAttribute="leading" secondItem="JY2-P8-ymc" secondAttribute="leading" id="qGA-sx-xKM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="zS0-ex-FVf"/>
+                    <navigationItem key="navigationItem" title="Bills" id="zS0-ex-FVf"/>
                     <connections>
                         <outlet property="frontPageView" destination="GU1-Gm-y8z" id="bv8-UP-O4A"/>
-                        <segue destination="BYZ-38-t0r" kind="show" id="rcT-bU-Vz4"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="NewBillSegue" id="rcT-bU-Vz4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ipX-iD-mIG" userLabel="First Responder" sceneMemberID="firstResponder"/>

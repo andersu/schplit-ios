@@ -10,6 +10,7 @@ import Foundation
 
 protocol CreateBillPresenterOutput {
     func updateViews(viewModel: CreateBillViewModel)
+    func billCreated(viewModel: CreateBillViewModel)
 }
 
 class CreateBillPresenter {
@@ -44,7 +45,9 @@ extension CreateBillPresenter: CreateBillInteractorOutput {
     }
     
     func billSaved() {
-        
+        // Reset viewModel
+        viewModel = CreateBillViewModel()
+        viewController.billCreated(viewModel: viewModel)
     }
     
     private func updateViewsOnMainThread() {

@@ -30,9 +30,9 @@ class CreateBillConfigurator {
          
         viewController.interactor = interactor
         
-        /*let router = FrontPageRouter()
+        let router = CreateBillRouter()
         router.viewController = viewController
-        viewController.router = router*/
+        viewController.router = router
     }
     
 

@@ -12,10 +12,13 @@ import XCTest
 @testable import Schplit
 
 class CreateBillInteractorTest: XCTestCase {
-    var createBillInteractor = CreateBillInteractor()
+    var createBillInteractor: CreateBillInteractor!
+    
+    var mockBillService = MockBillService(billRepository: BillRepository())
     var mockCreateBillPresenter = MockCreateBillPresenter()
     
     override func setUp() {
+        createBillInteractor = CreateBillInteractor(billService: mockBillService)
         createBillInteractor.presenter = mockCreateBillPresenter
     }
     
@@ -60,5 +63,13 @@ class CreateBillInteractorTest: XCTestCase {
         func addSchplitterButtonClicked(name: String?) {
             nameFromAddSchplitterButtonClicked = name
         }
+        
+        func billSaved() {
+            
+        }
+    }
+    
+    class MockBillService: BillService {
+        
     }
 }

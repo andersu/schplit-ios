@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		492BA14AC4D21FF919330997 /* Pods_Schplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B125B289520043FC976DD05 /* Pods_Schplit.framework */; };
+		9F6448BF1DBACC6E0053FA62 /* FrontPageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448BE1DBACC6E0053FA62 /* FrontPageInteractor.swift */; };
+		9F6448C11DBACD570053FA62 /* FrontPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448C01DBACD570053FA62 /* FrontPagePresenter.swift */; };
+		9F6448C31DBAD0620053FA62 /* FrontPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448C21DBAD0620053FA62 /* FrontPageViewModel.swift */; };
+		9F6448C71DBAD2890053FA62 /* BillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448C61DBAD2890053FA62 /* BillCell.swift */; };
+		9F6448C91DBAD2910053FA62 /* BillCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6448C81DBAD2910053FA62 /* BillCell.xib */; };
+		9F6448CB1DBAD6210053FA62 /* CreateBillRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448CA1DBAD6210053FA62 /* CreateBillRouter.swift */; };
 		9FC1ABCD1DBA93F80024FDBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABCC1DBA93F80024FDBE /* AppDelegate.swift */; };
 		9FC1ABD21DBA93F80024FDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD01DBA93F80024FDBE /* Main.storyboard */; };
 		9FC1ABD71DBA93F80024FDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD61DBA93F80024FDBE /* Assets.xcassets */; };
@@ -56,6 +62,12 @@
 		7941BC193422552E5543FD0B /* Pods_SchplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchplitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABE3F0B1C095C63D78B4FF4 /* Pods-SchplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchplitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchplitTests/Pods-SchplitTests.release.xcconfig"; sourceTree = "<group>"; };
 		7C3EDCB2AE5339F3B4C3F988 /* Pods-Schplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schplit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Schplit/Pods-Schplit.release.xcconfig"; sourceTree = "<group>"; };
+		9F6448BE1DBACC6E0053FA62 /* FrontPageInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageInteractor.swift; sourceTree = "<group>"; };
+		9F6448C01DBACD570053FA62 /* FrontPagePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPagePresenter.swift; sourceTree = "<group>"; };
+		9F6448C21DBAD0620053FA62 /* FrontPageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageViewModel.swift; sourceTree = "<group>"; };
+		9F6448C61DBAD2890053FA62 /* BillCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillCell.swift; sourceTree = "<group>"; };
+		9F6448C81DBAD2910053FA62 /* BillCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BillCell.xib; sourceTree = "<group>"; };
+		9F6448CA1DBAD6210053FA62 /* CreateBillRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillRouter.swift; sourceTree = "<group>"; };
 		9FC1ABC91DBA93F80024FDBE /* Schplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC1ABCC1DBA93F80024FDBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC1ABD11DBA93F80024FDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -119,6 +131,23 @@
 				7ABE3F0B1C095C63D78B4FF4 /* Pods-SchplitTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F6448C41DBAD2670053FA62 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9F6448C51DBAD2750053FA62 /* BillCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9F6448C51DBAD2750053FA62 /* BillCell */ = {
+			isa = PBXGroup;
+			children = (
+				9F6448C61DBAD2890053FA62 /* BillCell.swift */,
+				9F6448C81DBAD2910053FA62 /* BillCell.xib */,
+			);
+			path = BillCell;
 			sourceTree = "<group>";
 		};
 		9FC1ABC01DBA93F80024FDBE = {
@@ -226,6 +255,7 @@
 			children = (
 				9FC1ABFF1DBA988C0024FDBE /* FrontPageView.swift */,
 				9FC1AC011DBA98950024FDBE /* FrontPageView.xib */,
+				9F6448C41DBAD2670053FA62 /* Cells */,
 			);
 			path = FrontPageView;
 			sourceTree = "<group>";
@@ -234,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				9FC1AC041DBA99690024FDBE /* FrontPageRouter.swift */,
+				9F6448CA1DBAD6210053FA62 /* CreateBillRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -259,6 +290,7 @@
 		9FC1AC0D1DBAA6A10024FDBE /* Interactors */ = {
 			isa = PBXGroup;
 			children = (
+				9F6448BE1DBACC6E0053FA62 /* FrontPageInteractor.swift */,
 				9FC1AC0E1DBAA7220024FDBE /* CreateBillInteractor.swift */,
 			);
 			path = Interactors;
@@ -267,6 +299,7 @@
 		9FC1AC121DBAA7CD0024FDBE /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
+				9F6448C01DBACD570053FA62 /* FrontPagePresenter.swift */,
 				9FC1AC131DBAA7E80024FDBE /* CreateBillPresenter.swift */,
 			);
 			path = Presenters;
@@ -275,6 +308,7 @@
 		9FC1AC151DBAA8300024FDBE /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9F6448C21DBAD0620053FA62 /* FrontPageViewModel.swift */,
 				9FC1AC161DBAA8480024FDBE /* CreateBillViewModel.swift */,
 			);
 			path = ViewModels;
@@ -437,6 +471,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6448C91DBAD2910053FA62 /* BillCell.xib in Resources */,
 				9FC1ABDA1DBA93F80024FDBE /* LaunchScreen.storyboard in Resources */,
 				9FC1AC021DBA98950024FDBE /* FrontPageView.xib in Resources */,
 				9FC1ABFB1DBA962E0024FDBE /* CreateBillView.xib in Resources */,
@@ -556,6 +591,7 @@
 				9FC1ABF61DBA95DA0024FDBE /* NibLoadingView.swift in Sources */,
 				9FC1ABFD1DBA96B30024FDBE /* FrontPageViewController.swift in Sources */,
 				9FC1ABF91DBA96250024FDBE /* CreateBillView.swift in Sources */,
+				9F6448CB1DBAD6210053FA62 /* CreateBillRouter.swift in Sources */,
 				9FC1AC321DBAC82D0024FDBE /* BillService.swift in Sources */,
 				9FC1AC171DBAA8480024FDBE /* CreateBillViewModel.swift in Sources */,
 				9FC1AC291DBAC3F80024FDBE /* Bill.swift in Sources */,
@@ -565,9 +601,13 @@
 				9FC1AC2C1DBAC5AF0024FDBE /* BillRepository.swift in Sources */,
 				9FC1AC001DBA988C0024FDBE /* FrontPageView.swift in Sources */,
 				9FC1AC051DBA99690024FDBE /* FrontPageRouter.swift in Sources */,
+				9F6448C71DBAD2890053FA62 /* BillCell.swift in Sources */,
 				9FC1AC141DBAA7E80024FDBE /* CreateBillPresenter.swift in Sources */,
+				9F6448C31DBAD0620053FA62 /* FrontPageViewModel.swift in Sources */,
 				9FC1AC0F1DBAA7220024FDBE /* CreateBillInteractor.swift in Sources */,
 				9FC1AC221DBAB1E30024FDBE /* SchplitterCell.swift in Sources */,
+				9F6448BF1DBACC6E0053FA62 /* FrontPageInteractor.swift in Sources */,
+				9F6448C11DBACD570053FA62 /* FrontPagePresenter.swift in Sources */,
 				9FC1AC2F1DBAC5EF0024FDBE /* RealmBill.swift in Sources */,
 				9FC1AC081DBA9A080024FDBE /* FrontPageConfigurator.swift in Sources */,
 			);
@@ -633,6 +673,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -683,6 +724,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -712,7 +754,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0DDE3C92C7D64DD4BBC51352 /* Pods-Schplit.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 643MJ6ZSSD;
 				INFOPLIST_FILE = Schplit/Info.plist;
@@ -727,7 +769,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C3EDCB2AE5339F3B4C3F988 /* Pods-Schplit.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 643MJ6ZSSD;
 				INFOPLIST_FILE = Schplit/Info.plist;

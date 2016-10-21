@@ -18,4 +18,8 @@ class BillService {
     func saveBill(bill: Bill) {
         billRepository.insert(bill: bill)
     }
+    
+    func getBills() -> [Bill] {
+        return billRepository.getBills()
+    }
 }

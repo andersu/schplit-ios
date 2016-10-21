@@ -15,10 +15,20 @@ class FrontPageViewControllerTest: XCTestCase {
     
     var frontPageViewController = FrontPageViewController()
     var mockFrontPageRouter = MockFrontPageRouter()
+    var mockFrontPageInteractor = MockFrontPageInteractor()
+    var mockFrontPageView = MockFrontPageView()
     
     override func setUp() {
         frontPageViewController.router = mockFrontPageRouter
     }
+    
+    // MARK: viewDidLoad
+    // TODO
+    /*func testViewDidLoad_callsInteractor() {
+        frontPageViewController.viewDidLoad()
+        
+        XCTAssertTrue(mockFrontPageInteractor.viewDidLoadCalled)
+    }*/
     
     // MARK: newBillButtonClicked
     func testNewBillButtonClicked_callsRouter_navigateToCreateBill() {
@@ -33,6 +43,26 @@ class FrontPageViewControllerTest: XCTestCase {
         
         func navigateToCreateBill() {
             navigateToCreateBillCalled = true
+        }
+    }
+    
+    class MockFrontPageInteractor: FrontPageViewControllerOutput {
+        private (set) var viewDidLoadCalled = false
+        
+        func viewDidLoad() {
+            viewDidLoadCalled = true
+        }
+    }
+    
+    class MockFrontPageView: FrontPageView {
+        var _viewController: FrontPageViewDelegate?
+        override var viewController: FrontPageViewDelegate! {
+            get {
+                return self._viewController
+            }
+            set {
+                self._viewController = viewController
+            }
         }
     }
 }

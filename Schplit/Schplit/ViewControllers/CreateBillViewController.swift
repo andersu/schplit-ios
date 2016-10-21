@@ -18,6 +18,7 @@ protocol CreateBillViewControllerOutput: class {
 class CreateBillViewController: UIViewController {
     @IBOutlet weak var createBillView: CreateBillView!
     
+    var router: CreateBillRouterInput!
     var interactor: CreateBillViewControllerOutput!
     
     override func viewDidLoad() {
@@ -49,6 +50,11 @@ extension CreateBillViewController: CreateBillViewDelegate {
 extension CreateBillViewController: CreateBillPresenterOutput {
     func updateViews(viewModel: CreateBillViewModel) {
         createBillView.updateViews(viewModel: viewModel)
+    }
+    
+    func billCreated(viewModel: CreateBillViewModel) {
+        createBillView.updateViews(viewModel: viewModel)
+        router.navigateToFrontPage()
     }
 }
 
