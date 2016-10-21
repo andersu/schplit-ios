@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		9FC1ABCD1DBA93F80024FDBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABCC1DBA93F80024FDBE /* AppDelegate.swift */; };
-		9FC1ABCF1DBA93F80024FDBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABCE1DBA93F80024FDBE /* ViewController.swift */; };
 		9FC1ABD21DBA93F80024FDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD01DBA93F80024FDBE /* Main.storyboard */; };
-		9FC1ABD51DBA93F80024FDBE /* Schplit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD31DBA93F80024FDBE /* Schplit.xcdatamodeld */; };
 		9FC1ABD71DBA93F80024FDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD61DBA93F80024FDBE /* Assets.xcassets */; };
 		9FC1ABDA1DBA93F80024FDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD81DBA93F80024FDBE /* LaunchScreen.storyboard */; };
 		9FC1ABE51DBA93F80024FDBE /* SchplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABE41DBA93F80024FDBE /* SchplitTests.swift */; };
+		9FC1ABF31DBA956C0024FDBE /* CreateBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABF21DBA956C0024FDBE /* CreateBillViewController.swift */; };
+		9FC1ABF61DBA95DA0024FDBE /* NibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABF51DBA95DA0024FDBE /* NibLoadingView.swift */; };
+		9FC1ABF91DBA96250024FDBE /* CreateBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABF81DBA96250024FDBE /* CreateBillView.swift */; };
+		9FC1ABFB1DBA962E0024FDBE /* CreateBillView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABFA1DBA962E0024FDBE /* CreateBillView.xib */; };
+		9FC1ABFD1DBA96B30024FDBE /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABFC1DBA96B30024FDBE /* FrontPageViewController.swift */; };
+		9FC1AC001DBA988C0024FDBE /* FrontPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABFF1DBA988C0024FDBE /* FrontPageView.swift */; };
+		9FC1AC021DBA98950024FDBE /* FrontPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1AC011DBA98950024FDBE /* FrontPageView.xib */; };
+		9FC1AC051DBA99690024FDBE /* FrontPageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC041DBA99690024FDBE /* FrontPageRouter.swift */; };
+		9FC1AC081DBA9A080024FDBE /* FrontPageConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC071DBA9A080024FDBE /* FrontPageConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +36,22 @@
 /* Begin PBXFileReference section */
 		9FC1ABC91DBA93F80024FDBE /* Schplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC1ABCC1DBA93F80024FDBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FC1ABCE1DBA93F80024FDBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9FC1ABD11DBA93F80024FDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9FC1ABD41DBA93F80024FDBE /* Schplit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Schplit.xcdatamodel; sourceTree = "<group>"; };
 		9FC1ABD61DBA93F80024FDBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC1ABD91DBA93F80024FDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC1ABDB1DBA93F80024FDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC1ABE01DBA93F80024FDBE /* SchplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC1ABE41DBA93F80024FDBE /* SchplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchplitTests.swift; sourceTree = "<group>"; };
 		9FC1ABE61DBA93F80024FDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC1ABF21DBA956C0024FDBE /* CreateBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillViewController.swift; sourceTree = "<group>"; };
+		9FC1ABF51DBA95DA0024FDBE /* NibLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadingView.swift; sourceTree = "<group>"; };
+		9FC1ABF81DBA96250024FDBE /* CreateBillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillView.swift; sourceTree = "<group>"; };
+		9FC1ABFA1DBA962E0024FDBE /* CreateBillView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateBillView.xib; sourceTree = "<group>"; };
+		9FC1ABFC1DBA96B30024FDBE /* FrontPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageViewController.swift; sourceTree = "<group>"; };
+		9FC1ABFF1DBA988C0024FDBE /* FrontPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageView.swift; sourceTree = "<group>"; };
+		9FC1AC011DBA98950024FDBE /* FrontPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrontPageView.xib; sourceTree = "<group>"; };
+		9FC1AC041DBA99690024FDBE /* FrontPageRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageRouter.swift; sourceTree = "<group>"; };
+		9FC1AC071DBA9A080024FDBE /* FrontPageConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +94,13 @@
 			isa = PBXGroup;
 			children = (
 				9FC1ABCC1DBA93F80024FDBE /* AppDelegate.swift */,
-				9FC1ABCE1DBA93F80024FDBE /* ViewController.swift */,
-				9FC1ABD01DBA93F80024FDBE /* Main.storyboard */,
 				9FC1ABD61DBA93F80024FDBE /* Assets.xcassets */,
-				9FC1ABD81DBA93F80024FDBE /* LaunchScreen.storyboard */,
 				9FC1ABDB1DBA93F80024FDBE /* Info.plist */,
-				9FC1ABD31DBA93F80024FDBE /* Schplit.xcdatamodeld */,
+				9FC1ABEF1DBA95080024FDBE /* Storyboards */,
+				9FC1ABF01DBA95360024FDBE /* Views */,
+				9FC1ABF11DBA954B0024FDBE /* ViewControllers */,
+				9FC1AC031DBA99540024FDBE /* Routers */,
+				9FC1AC061DBA99E10024FDBE /* Configurators */,
 			);
 			path = Schplit;
 			sourceTree = "<group>";
@@ -97,6 +112,76 @@
 				9FC1ABE61DBA93F80024FDBE /* Info.plist */,
 			);
 			path = SchplitTests;
+			sourceTree = "<group>";
+		};
+		9FC1ABEF1DBA95080024FDBE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1ABD01DBA93F80024FDBE /* Main.storyboard */,
+				9FC1ABD81DBA93F80024FDBE /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		9FC1ABF01DBA95360024FDBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1ABFE1DBA987A0024FDBE /* FrontPageView */,
+				9FC1ABF71DBA95F00024FDBE /* CreateBillView */,
+				9FC1ABF41DBA958D0024FDBE /* NibLoadingView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9FC1ABF11DBA954B0024FDBE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1ABFC1DBA96B30024FDBE /* FrontPageViewController.swift */,
+				9FC1ABF21DBA956C0024FDBE /* CreateBillViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9FC1ABF41DBA958D0024FDBE /* NibLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1ABF51DBA95DA0024FDBE /* NibLoadingView.swift */,
+			);
+			path = NibLoadingView;
+			sourceTree = "<group>";
+		};
+		9FC1ABF71DBA95F00024FDBE /* CreateBillView */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1ABF81DBA96250024FDBE /* CreateBillView.swift */,
+				9FC1ABFA1DBA962E0024FDBE /* CreateBillView.xib */,
+			);
+			path = CreateBillView;
+			sourceTree = "<group>";
+		};
+		9FC1ABFE1DBA987A0024FDBE /* FrontPageView */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1ABFF1DBA988C0024FDBE /* FrontPageView.swift */,
+				9FC1AC011DBA98950024FDBE /* FrontPageView.xib */,
+			);
+			path = FrontPageView;
+			sourceTree = "<group>";
+		};
+		9FC1AC031DBA99540024FDBE /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1AC041DBA99690024FDBE /* FrontPageRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		9FC1AC061DBA99E10024FDBE /* Configurators */ = {
+			isa = PBXGroup;
+			children = (
+				9FC1AC071DBA9A080024FDBE /* FrontPageConfigurator.swift */,
+			);
+			path = Configurators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC1ABDA1DBA93F80024FDBE /* LaunchScreen.storyboard in Resources */,
+				9FC1AC021DBA98950024FDBE /* FrontPageView.xib in Resources */,
+				9FC1ABFB1DBA962E0024FDBE /* CreateBillView.xib in Resources */,
 				9FC1ABD71DBA93F80024FDBE /* Assets.xcassets in Resources */,
 				9FC1ABD21DBA93F80024FDBE /* Main.storyboard in Resources */,
 			);
@@ -204,9 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FC1ABD51DBA93F80024FDBE /* Schplit.xcdatamodeld in Sources */,
-				9FC1ABCF1DBA93F80024FDBE /* ViewController.swift in Sources */,
+				9FC1ABF61DBA95DA0024FDBE /* NibLoadingView.swift in Sources */,
+				9FC1ABFD1DBA96B30024FDBE /* FrontPageViewController.swift in Sources */,
+				9FC1ABF91DBA96250024FDBE /* CreateBillView.swift in Sources */,
+				9FC1ABF31DBA956C0024FDBE /* CreateBillViewController.swift in Sources */,
 				9FC1ABCD1DBA93F80024FDBE /* AppDelegate.swift in Sources */,
+				9FC1AC001DBA988C0024FDBE /* FrontPageView.swift in Sources */,
+				9FC1AC051DBA99690024FDBE /* FrontPageRouter.swift in Sources */,
+				9FC1AC081DBA9A080024FDBE /* FrontPageConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +508,7 @@
 				9FC1ABEB1DBA93F80024FDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FC1ABEC1DBA93F80024FDBE /* Build configuration list for PBXNativeTarget "SchplitTests" */ = {
 			isa = XCConfigurationList;
@@ -424,21 +517,9 @@
 				9FC1ABEE1DBA93F80024FDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9FC1ABD31DBA93F80024FDBE /* Schplit.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9FC1ABD41DBA93F80024FDBE /* Schplit.xcdatamodel */,
-			);
-			currentVersion = 9FC1ABD41DBA93F80024FDBE /* Schplit.xcdatamodel */;
-			path = Schplit.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9FC1ABC11DBA93F80024FDBE /* Project object */;
 }
