@@ -1,0 +1,12 @@
+PODS:
+  - NibDesignable (3.0.0)
+
+DEPENDENCIES:
+  - NibDesignable
+
+SPEC CHECKSUMS:
+  NibDesignable: 6ccf1e54135cb05be0a78f803b9a8d78125a7d6d
+
+PODFILE CHECKSUM: 5bab3ec4ca8f9fc0e77efa76e7523994aa161680
+
+COCOAPODS: 1.1.0.rc.3

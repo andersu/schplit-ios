@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492BA14AC4D21FF919330997 /* Pods_Schplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B125B289520043FC976DD05 /* Pods_Schplit.framework */; };
 		9FC1ABCD1DBA93F80024FDBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABCC1DBA93F80024FDBE /* AppDelegate.swift */; };
 		9FC1ABD21DBA93F80024FDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD01DBA93F80024FDBE /* Main.storyboard */; };
 		9FC1ABD71DBA93F80024FDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD61DBA93F80024FDBE /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		9FC1AC191DBAA8E80024FDBE /* CreateBillViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC181DBAA8E80024FDBE /* CreateBillViewControllerTest.swift */; };
 		9FC1AC1D1DBAAA920024FDBE /* CreateBillInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC1C1DBAAA920024FDBE /* CreateBillInteractorTest.swift */; };
 		9FC1AC1F1DBAABEF0024FDBE /* CreateBillPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC1E1DBAABEF0024FDBE /* CreateBillPresenterTest.swift */; };
+		C67B65AD32C8F86313649C76 /* Pods_SchplitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7941BC193422552E5543FD0B /* Pods_SchplitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B125B289520043FC976DD05 /* Pods_Schplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Schplit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDE3C92C7D64DD4BBC51352 /* Pods-Schplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schplit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Schplit/Pods-Schplit.debug.xcconfig"; sourceTree = "<group>"; };
+		103DC698F1D3D5EEACAAA60A /* Pods-SchplitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchplitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SchplitTests/Pods-SchplitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7941BC193422552E5543FD0B /* Pods_SchplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchplitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABE3F0B1C095C63D78B4FF4 /* Pods-SchplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchplitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchplitTests/Pods-SchplitTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C3EDCB2AE5339F3B4C3F988 /* Pods-Schplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schplit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Schplit/Pods-Schplit.release.xcconfig"; sourceTree = "<group>"; };
 		9FC1ABC91DBA93F80024FDBE /* Schplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC1ABCC1DBA93F80024FDBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC1ABD11DBA93F80024FDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492BA14AC4D21FF919330997 /* Pods_Schplit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,18 +89,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67B65AD32C8F86313649C76 /* Pods_SchplitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70AD9221BB08BB22297B7B5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DDE3C92C7D64DD4BBC51352 /* Pods-Schplit.debug.xcconfig */,
+				7C3EDCB2AE5339F3B4C3F988 /* Pods-Schplit.release.xcconfig */,
+				103DC698F1D3D5EEACAAA60A /* Pods-SchplitTests.debug.xcconfig */,
+				7ABE3F0B1C095C63D78B4FF4 /* Pods-SchplitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9FC1ABC01DBA93F80024FDBE = {
 			isa = PBXGroup;
 			children = (
 				9FC1ABCB1DBA93F80024FDBE /* Schplit */,
 				9FC1ABE31DBA93F80024FDBE /* SchplitTests */,
 				9FC1ABCA1DBA93F80024FDBE /* Products */,
+				70AD9221BB08BB22297B7B5A /* Pods */,
+				D12EF201340C2237B9357660 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -253,6 +276,15 @@
 			path = Presenters;
 			sourceTree = "<group>";
 		};
+		D12EF201340C2237B9357660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B125B289520043FC976DD05 /* Pods_Schplit.framework */,
+				7941BC193422552E5543FD0B /* Pods_SchplitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -260,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FC1ABE91DBA93F80024FDBE /* Build configuration list for PBXNativeTarget "Schplit" */;
 			buildPhases = (
+				96867384DB1DB4F530007EA6 /* [CP] Check Pods Manifest.lock */,
 				9FC1ABC51DBA93F80024FDBE /* Sources */,
 				9FC1ABC61DBA93F80024FDBE /* Frameworks */,
 				9FC1ABC71DBA93F80024FDBE /* Resources */,
+				7EFE216612E67FEB79575D5D /* [CP] Embed Pods Frameworks */,
+				729011778C24E4982945FBCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FC1ABEC1DBA93F80024FDBE /* Build configuration list for PBXNativeTarget "SchplitTests" */;
 			buildPhases = (
+				EE71FB70CECE5C2B46874033 /* [CP] Check Pods Manifest.lock */,
 				9FC1ABDC1DBA93F80024FDBE /* Sources */,
 				9FC1ABDD1DBA93F80024FDBE /* Frameworks */,
 				9FC1ABDE1DBA93F80024FDBE /* Resources */,
+				4D9A2BA5037D6B1A1A1823A2 /* [CP] Embed Pods Frameworks */,
+				5304C93490F1BE78EC1AD42D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -354,6 +392,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D9A2BA5037D6B1A1A1823A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchplitTests/Pods-SchplitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5304C93490F1BE78EC1AD42D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchplitTests/Pods-SchplitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729011778C24E4982945FBCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Schplit/Pods-Schplit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EFE216612E67FEB79575D5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Schplit/Pods-Schplit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96867384DB1DB4F530007EA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE71FB70CECE5C2B46874033 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9FC1ABC51DBA93F80024FDBE /* Sources */ = {
@@ -511,7 +642,9 @@
 		};
 		9FC1ABEA1DBA93F80024FDBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDE3C92C7D64DD4BBC51352 /* Pods-Schplit.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 643MJ6ZSSD;
 				INFOPLIST_FILE = Schplit/Info.plist;
@@ -524,7 +657,9 @@
 		};
 		9FC1ABEB1DBA93F80024FDBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C3EDCB2AE5339F3B4C3F988 /* Pods-Schplit.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 643MJ6ZSSD;
 				INFOPLIST_FILE = Schplit/Info.plist;
@@ -537,8 +672,9 @@
 		};
 		9FC1ABED1DBA93F80024FDBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103DC698F1D3D5EEACAAA60A /* Pods-SchplitTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 643MJ6ZSSD;
 				INFOPLIST_FILE = SchplitTests/Info.plist;
@@ -552,8 +688,9 @@
 		};
 		9FC1ABEE1DBA93F80024FDBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABE3F0B1C095C63D78B4FF4 /* Pods-SchplitTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 643MJ6ZSSD;
 				INFOPLIST_FILE = SchplitTests/Info.plist;

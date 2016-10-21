@@ -59,6 +59,15 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="tle-F8-DKQ">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wCC-gI-4to">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbb-Gv-Wmw">
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                     <nil key="textColor"/>
@@ -69,20 +78,24 @@
             <constraints>
                 <constraint firstItem="Hbb-Gv-Wmw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="2jO-qM-cL0"/>
                 <constraint firstItem="axq-pM-G1Y" firstAttribute="top" secondItem="zxk-nG-clp" secondAttribute="bottom" constant="16" id="I0a-8H-7lj"/>
+                <constraint firstItem="4kT-FO-TXP" firstAttribute="top" secondItem="tle-F8-DKQ" secondAttribute="bottom" constant="32" id="KWe-Ol-go5"/>
                 <constraint firstAttribute="trailing" secondItem="Hbb-Gv-Wmw" secondAttribute="trailing" constant="16" id="LgJ-X7-Gkj"/>
                 <constraint firstItem="cFn-Tu-2f5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Lhb-BQ-wDX"/>
                 <constraint firstItem="Hbb-Gv-Wmw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="Olj-eH-lc6"/>
                 <constraint firstItem="cFn-Tu-2f5" firstAttribute="top" secondItem="kzT-qR-WF1" secondAttribute="bottom" constant="32" id="U0T-A3-v19"/>
                 <constraint firstAttribute="trailing" secondItem="zxk-nG-clp" secondAttribute="trailing" constant="16" id="XSV-3p-SYZ"/>
                 <constraint firstItem="kzT-qR-WF1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="XdD-MT-RJW"/>
+                <constraint firstItem="tle-F8-DKQ" firstAttribute="top" secondItem="axq-pM-G1Y" secondAttribute="bottom" constant="32" id="YOh-FQ-EQW"/>
                 <constraint firstAttribute="bottom" secondItem="4kT-FO-TXP" secondAttribute="bottom" constant="16" id="adh-jI-gAW"/>
                 <constraint firstAttribute="trailing" secondItem="cFn-Tu-2f5" secondAttribute="trailing" constant="16" id="erZ-E1-O2X"/>
                 <constraint firstItem="zxk-nG-clp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="gTO-Do-JYr"/>
+                <constraint firstItem="tle-F8-DKQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="gmj-xn-lXv"/>
                 <constraint firstAttribute="trailing" secondItem="kzT-qR-WF1" secondAttribute="trailing" constant="16" id="gwf-NW-mbU"/>
                 <constraint firstItem="axq-pM-G1Y" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="nY5-Dg-kAv"/>
                 <constraint firstItem="kzT-qR-WF1" firstAttribute="top" secondItem="Hbb-Gv-Wmw" secondAttribute="bottom" constant="16" id="qHj-Or-oBc"/>
                 <constraint firstAttribute="trailing" secondItem="4kT-FO-TXP" secondAttribute="trailing" constant="16" id="qIX-R8-yjs"/>
                 <constraint firstItem="4kT-FO-TXP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="qKu-Oa-ait"/>
+                <constraint firstAttribute="trailing" secondItem="tle-F8-DKQ" secondAttribute="trailing" constant="16" id="tIA-Eu-9g4"/>
                 <constraint firstItem="zxk-nG-clp" firstAttribute="top" secondItem="cFn-Tu-2f5" secondAttribute="bottom" constant="16" id="zI6-Ir-Na8"/>
             </constraints>
             <point key="canvasLocation" x="51" y="113"/>

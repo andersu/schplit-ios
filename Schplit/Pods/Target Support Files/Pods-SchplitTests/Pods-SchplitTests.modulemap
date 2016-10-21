@@ -1,0 +1,6 @@
+framework module Pods_SchplitTests {
+  umbrella header "Pods-SchplitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
