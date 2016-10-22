@@ -10,6 +10,7 @@ import Foundation
 
 protocol FrontPageRouterInput {
     func navigateToCreateBill()
+    func navigateTo(bill: Bill)
 }
 
 class FrontPageRouter: FrontPageRouterInput {
@@ -18,5 +19,11 @@ class FrontPageRouter: FrontPageRouterInput {
     func navigateToCreateBill() {
         let createBillViewController = viewController.storyboard?.instantiateViewController(withIdentifier: "CreateBillViewController") as! CreateBillViewController
         viewController.navigationController?.pushViewController(createBillViewController, animated: false)
+    }
+    
+    func navigateTo(bill: Bill) {
+        let billViewController = viewController.storyboard?.instantiateViewController(withIdentifier: "BillViewController") as! BillViewController
+        billViewController.bill = bill
+        viewController.navigationController?.pushViewController(billViewController, animated: false)
     }
 }

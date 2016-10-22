@@ -15,7 +15,7 @@ class FrontPageConfigurator {
         // Enforce Singleton Pattern
     }
     
-    func configure(viewController: FrontPageViewController){
+    func configure(viewController: FrontPageViewController) {
         let viewModel = FrontPageViewModel()
         let presenter = FrontPagePresenter(viewModel: viewModel)
         presenter.viewController = viewController

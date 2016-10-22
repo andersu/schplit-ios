@@ -11,6 +11,7 @@ import UIKit
 
 protocol FrontPageViewDelegate {
     func newBillButtonClicked()
+    func didSelect(bill: Bill)
 }
 
 class FrontPageView: NibLoadingView {
@@ -61,5 +62,12 @@ extension FrontPageView: UITableViewDataSource {
         cell.populate(bill: viewModel.bills[indexPath.row])
         
         return cell
+    }
+}
+
+extension FrontPageView: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let bill = viewModel.bills[indexPath.row]
+        viewController.didSelect(bill: bill)
     }
 }

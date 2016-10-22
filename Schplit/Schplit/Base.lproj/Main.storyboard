@@ -69,11 +69,44 @@
                     <connections>
                         <outlet property="frontPageView" destination="GU1-Gm-y8z" id="bv8-UP-O4A"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="NewBillSegue" id="rcT-bU-Vz4"/>
+                        <segue destination="VLW-r1-QA0" kind="show" id="CZd-jW-9t2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ipX-iD-mIG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-7.2000000000000002" y="36.431784107946029"/>
+        </scene>
+        <!--Bill View Controller-->
+        <scene sceneID="xUX-rV-Vp9">
+            <objects>
+                <viewController storyboardIdentifier="BillViewController" id="VLW-r1-QA0" customClass="BillViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4yS-ay-uWD"/>
+                        <viewControllerLayoutGuide type="bottom" id="AZF-Bo-I9m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fgX-rG-LKD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DXp-UM-R8b" customClass="BillView" customModule="Schplit" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DXp-UM-R8b" firstAttribute="top" secondItem="4yS-ay-uWD" secondAttribute="bottom" id="FDx-X4-X0e"/>
+                            <constraint firstItem="DXp-UM-R8b" firstAttribute="leading" secondItem="fgX-rG-LKD" secondAttribute="leading" id="RrM-sp-n8z"/>
+                            <constraint firstItem="AZF-Bo-I9m" firstAttribute="top" secondItem="DXp-UM-R8b" secondAttribute="bottom" id="X9r-PV-xQY"/>
+                            <constraint firstAttribute="trailing" secondItem="DXp-UM-R8b" secondAttribute="trailing" id="bIZ-wE-pUB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="billView" destination="DXp-UM-R8b" id="VX4-Gj-2mQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pxu-s5-fCp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7" y="804"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ivK-rK-gpB">

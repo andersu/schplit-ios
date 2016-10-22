@@ -35,6 +35,10 @@ extension FrontPageViewController: FrontPageViewDelegate {
     func newBillButtonClicked() {
         router.navigateToCreateBill()
     }
+    
+    func didSelect(bill: Bill) {
+        router.navigateTo(bill: bill)
+    }
 }
 
 extension FrontPageViewController: FrontPagePresenterOutput {
