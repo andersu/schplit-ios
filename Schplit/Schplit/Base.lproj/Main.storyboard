@@ -102,11 +102,45 @@
                     </view>
                     <connections>
                         <outlet property="billView" destination="DXp-UM-R8b" id="VX4-Gj-2mQ"/>
+                        <segue destination="Wi9-Mk-eKo" kind="show" id="4JG-Dg-fjj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pxu-s5-fCp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-7" y="804"/>
+        </scene>
+        <!--New payment-->
+        <scene sceneID="hVj-rI-3g5">
+            <objects>
+                <viewController storyboardIdentifier="CreatePaymentViewController" id="Wi9-Mk-eKo" customClass="CreatePaymentViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VDa-DP-rbk"/>
+                        <viewControllerLayoutGuide type="bottom" id="jCl-bG-UcV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0E7-sk-ZzE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GnF-uy-gZi" customClass="CreatePaymentView" customModule="Schplit" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jCl-bG-UcV" firstAttribute="top" secondItem="GnF-uy-gZi" secondAttribute="bottom" id="U7Q-Oz-Jfj"/>
+                            <constraint firstItem="GnF-uy-gZi" firstAttribute="top" secondItem="VDa-DP-rbk" secondAttribute="bottom" id="bMr-lG-Ege"/>
+                            <constraint firstItem="GnF-uy-gZi" firstAttribute="leading" secondItem="0E7-sk-ZzE" secondAttribute="leading" id="nzZ-Vs-xaz"/>
+                            <constraint firstAttribute="trailing" secondItem="GnF-uy-gZi" secondAttribute="trailing" id="o39-nw-goa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="New payment" id="BdU-W1-Wl6"/>
+                    <connections>
+                        <outlet property="createPaymentView" destination="GnF-uy-gZi" id="ijo-67-cvK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mVu-kK-vom" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7" y="1569"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ivK-rK-gpB">

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreatePaymentView" customModule="Schplit" customModuleProvider="target">
+            <connections>
+                <outlet property="paymentSchplitterTableView" destination="UA7-cZ-EIm" id="U2E-lI-5hJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niS-MR-bSp">
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qrc-pX-FFp">
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IAC-fJ-1VT">
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill schplitters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6l-BW-drP">
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who paid?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C62-Zm-3sX">
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zM3-23-WPI">
+                    <color key="backgroundColor" red="0.33333333329999998" green="0.1960784314" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6Am-qr-bFb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <state key="normal" title="Create payment">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="createPaymentButtonClicked:" destination="-1" eventType="touchUpInside" id="ihY-qx-Juh"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UA7-cZ-EIm">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="21F-zw-TzW"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What did you pay for?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ca0-w4-DmP">
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Qrc-pX-FFp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="0u9-Aj-2Iq"/>
+                <constraint firstAttribute="trailing" secondItem="UA7-cZ-EIm" secondAttribute="trailing" id="45Z-Bs-iuX"/>
+                <constraint firstItem="niS-MR-bSp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="4aR-EX-hHM"/>
+                <constraint firstItem="UA7-cZ-EIm" firstAttribute="top" secondItem="P6l-BW-drP" secondAttribute="bottom" id="8dL-0B-nV1"/>
+                <constraint firstItem="C62-Zm-3sX" firstAttribute="top" secondItem="Qrc-pX-FFp" secondAttribute="bottom" constant="16" id="AmV-hm-9wG"/>
+                <constraint firstAttribute="trailing" secondItem="zM3-23-WPI" secondAttribute="trailing" constant="16" id="HrQ-Dm-G6i"/>
+                <constraint firstAttribute="bottom" secondItem="zM3-23-WPI" secondAttribute="bottom" constant="16" id="PE4-EK-YDq"/>
+                <constraint firstAttribute="trailing" secondItem="C62-Zm-3sX" secondAttribute="trailing" constant="16" id="UhN-ZS-iAS"/>
+                <constraint firstAttribute="trailing" secondItem="niS-MR-bSp" secondAttribute="trailing" constant="16" id="VGM-yu-Rtu"/>
+                <constraint firstItem="IAC-fJ-1VT" firstAttribute="top" secondItem="C62-Zm-3sX" secondAttribute="bottom" constant="4" id="Y1K-5U-kFa"/>
+                <constraint firstItem="zM3-23-WPI" firstAttribute="top" secondItem="UA7-cZ-EIm" secondAttribute="bottom" constant="32" id="ZX4-2a-acq"/>
+                <constraint firstItem="P6l-BW-drP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Zur-J2-tdb"/>
+                <constraint firstItem="Ca0-w4-DmP" firstAttribute="top" secondItem="niS-MR-bSp" secondAttribute="bottom" constant="8" id="clp-16-d3b"/>
+                <constraint firstAttribute="trailing" secondItem="Qrc-pX-FFp" secondAttribute="trailing" constant="16" id="mse-jC-3SQ"/>
+                <constraint firstAttribute="trailing" secondItem="Ca0-w4-DmP" secondAttribute="trailing" constant="16" id="nHb-Sw-Q09"/>
+                <constraint firstItem="Ca0-w4-DmP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="nga-en-zur"/>
+                <constraint firstAttribute="trailing" secondItem="IAC-fJ-1VT" secondAttribute="trailing" constant="16" id="nzq-BG-DHp"/>
+                <constraint firstItem="P6l-BW-drP" firstAttribute="top" secondItem="IAC-fJ-1VT" secondAttribute="bottom" constant="32" id="ode-n6-7Ce"/>
+                <constraint firstItem="Qrc-pX-FFp" firstAttribute="top" secondItem="Ca0-w4-DmP" secondAttribute="bottom" constant="4" id="q82-ir-2me"/>
+                <constraint firstAttribute="trailing" secondItem="P6l-BW-drP" secondAttribute="trailing" constant="16" id="tMR-H3-vcD"/>
+                <constraint firstItem="C62-Zm-3sX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="uKM-0U-v6u"/>
+                <constraint firstItem="UA7-cZ-EIm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wqH-sp-KGX"/>
+                <constraint firstItem="niS-MR-bSp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="xCc-5f-XMy"/>
+                <constraint firstItem="zM3-23-WPI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="xgh-ZD-IZY"/>
+                <constraint firstItem="IAC-fJ-1VT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="zDp-nC-Me4"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="118.5"/>
+        </view>
+    </objects>
+</document>

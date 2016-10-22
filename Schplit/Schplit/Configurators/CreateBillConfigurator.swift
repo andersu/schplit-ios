@@ -34,6 +34,4 @@ class CreateBillConfigurator {
         router.viewController = viewController
         viewController.router = router
     }
-    
-
 }

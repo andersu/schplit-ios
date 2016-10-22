@@ -19,6 +19,16 @@
 		9F6448D21DBADB110053FA62 /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448D11DBADB110053FA62 /* BillViewController.swift */; };
 		9F8BDEB21DBB494300243DAD /* BillConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEB11DBB494300243DAD /* BillConfigurator.swift */; };
 		9F8BDEB41DBB497000243DAD /* BillRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEB31DBB497000243DAD /* BillRouter.swift */; };
+		9F8BDEB61DBBBA1600243DAD /* CreatePaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEB51DBBBA1600243DAD /* CreatePaymentViewController.swift */; };
+		9F8BDEB91DBBBA8300243DAD /* CreatePaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEB81DBBBA8300243DAD /* CreatePaymentView.swift */; };
+		9F8BDEBB1DBBBA9A00243DAD /* CreatePaymentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8BDEBA1DBBBA9A00243DAD /* CreatePaymentView.xib */; };
+		9F8BDEBF1DBBBDB300243DAD /* PaymentSchplitterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEBE1DBBBDB300243DAD /* PaymentSchplitterCell.swift */; };
+		9F8BDEC11DBBBDCA00243DAD /* PaymentSchplitterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8BDEC01DBBBDCA00243DAD /* PaymentSchplitterCell.xib */; };
+		9F8BDEC31DBBBF8900243DAD /* CreatePaymentConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEC21DBBBF8900243DAD /* CreatePaymentConfigurator.swift */; };
+		9F8BDEC51DBBBFC300243DAD /* CreatePaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEC41DBBBFC300243DAD /* CreatePaymentViewModel.swift */; };
+		9F8BDEC71DBBBFD900243DAD /* CreatePaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEC61DBBBFD900243DAD /* CreatePaymentPresenter.swift */; };
+		9F8BDEC91DBBBFEA00243DAD /* CreatePaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEC81DBBBFEA00243DAD /* CreatePaymentInteractor.swift */; };
+		9F8BDECD1DBBC10D00243DAD /* CreatePaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDECC1DBBC10D00243DAD /* CreatePaymentRouter.swift */; };
 		9FC1ABCD1DBA93F80024FDBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABCC1DBA93F80024FDBE /* AppDelegate.swift */; };
 		9FC1ABD21DBA93F80024FDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD01DBA93F80024FDBE /* Main.storyboard */; };
 		9FC1ABD71DBA93F80024FDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD61DBA93F80024FDBE /* Assets.xcassets */; };
@@ -81,6 +91,16 @@
 		9F6448D11DBADB110053FA62 /* BillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
 		9F8BDEB11DBB494300243DAD /* BillConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillConfigurator.swift; sourceTree = "<group>"; };
 		9F8BDEB31DBB497000243DAD /* BillRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillRouter.swift; sourceTree = "<group>"; };
+		9F8BDEB51DBBBA1600243DAD /* CreatePaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentViewController.swift; sourceTree = "<group>"; };
+		9F8BDEB81DBBBA8300243DAD /* CreatePaymentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentView.swift; sourceTree = "<group>"; };
+		9F8BDEBA1DBBBA9A00243DAD /* CreatePaymentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreatePaymentView.xib; sourceTree = "<group>"; };
+		9F8BDEBE1DBBBDB300243DAD /* PaymentSchplitterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSchplitterCell.swift; sourceTree = "<group>"; };
+		9F8BDEC01DBBBDCA00243DAD /* PaymentSchplitterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentSchplitterCell.xib; sourceTree = "<group>"; };
+		9F8BDEC21DBBBF8900243DAD /* CreatePaymentConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentConfigurator.swift; sourceTree = "<group>"; };
+		9F8BDEC41DBBBFC300243DAD /* CreatePaymentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentViewModel.swift; sourceTree = "<group>"; };
+		9F8BDEC61DBBBFD900243DAD /* CreatePaymentPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentPresenter.swift; sourceTree = "<group>"; };
+		9F8BDEC81DBBBFEA00243DAD /* CreatePaymentInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentInteractor.swift; sourceTree = "<group>"; };
+		9F8BDECC1DBBC10D00243DAD /* CreatePaymentRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentRouter.swift; sourceTree = "<group>"; };
 		9FC1ABC91DBA93F80024FDBE /* Schplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC1ABCC1DBA93F80024FDBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC1ABD11DBA93F80024FDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -175,6 +195,33 @@
 			path = BillView;
 			sourceTree = "<group>";
 		};
+		9F8BDEB71DBBBA6600243DAD /* CreatePaymentView */ = {
+			isa = PBXGroup;
+			children = (
+				9F8BDEB81DBBBA8300243DAD /* CreatePaymentView.swift */,
+				9F8BDEBA1DBBBA9A00243DAD /* CreatePaymentView.xib */,
+				9F8BDEBC1DBBBD9900243DAD /* Cells */,
+			);
+			path = CreatePaymentView;
+			sourceTree = "<group>";
+		};
+		9F8BDEBC1DBBBD9900243DAD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9F8BDEBD1DBBBDA200243DAD /* PaymentSchplitterCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9F8BDEBD1DBBBDA200243DAD /* PaymentSchplitterCell */ = {
+			isa = PBXGroup;
+			children = (
+				9F8BDEBE1DBBBDB300243DAD /* PaymentSchplitterCell.swift */,
+				9F8BDEC01DBBBDCA00243DAD /* PaymentSchplitterCell.xib */,
+			);
+			path = PaymentSchplitterCell;
+			sourceTree = "<group>";
+		};
 		9FC1ABC01DBA93F80024FDBE = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +291,7 @@
 				9FC1ABFE1DBA987A0024FDBE /* FrontPageView */,
 				9FC1ABF71DBA95F00024FDBE /* CreateBillView */,
 				9F6448CC1DBADA950053FA62 /* BillView */,
+				9F8BDEB71DBBBA6600243DAD /* CreatePaymentView */,
 				9FC1ABF41DBA958D0024FDBE /* NibLoadingView */,
 			);
 			path = Views;
@@ -255,6 +303,7 @@
 				9FC1ABFC1DBA96B30024FDBE /* FrontPageViewController.swift */,
 				9FC1ABF21DBA956C0024FDBE /* CreateBillViewController.swift */,
 				9F6448D11DBADB110053FA62 /* BillViewController.swift */,
+				9F8BDEB51DBBBA1600243DAD /* CreatePaymentViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -293,6 +342,7 @@
 				9FC1AC041DBA99690024FDBE /* FrontPageRouter.swift */,
 				9F6448CA1DBAD6210053FA62 /* CreateBillRouter.swift */,
 				9F8BDEB31DBB497000243DAD /* BillRouter.swift */,
+				9F8BDECC1DBBC10D00243DAD /* CreatePaymentRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -303,6 +353,7 @@
 				9FC1AC071DBA9A080024FDBE /* FrontPageConfigurator.swift */,
 				9FC1AC101DBAA74D0024FDBE /* CreateBillConfigurator.swift */,
 				9F8BDEB11DBB494300243DAD /* BillConfigurator.swift */,
+				9F8BDEC21DBBBF8900243DAD /* CreatePaymentConfigurator.swift */,
 			);
 			path = Configurators;
 			sourceTree = "<group>";
@@ -322,6 +373,7 @@
 				9F6448BE1DBACC6E0053FA62 /* FrontPageInteractor.swift */,
 				9FC1AC0E1DBAA7220024FDBE /* CreateBillInteractor.swift */,
 				9FCE74E21DBADD280047F1A9 /* BillInteractor.swift */,
+				9F8BDEC81DBBBFEA00243DAD /* CreatePaymentInteractor.swift */,
 			);
 			path = Interactors;
 			sourceTree = "<group>";
@@ -332,6 +384,7 @@
 				9F6448C01DBACD570053FA62 /* FrontPagePresenter.swift */,
 				9FC1AC131DBAA7E80024FDBE /* CreateBillPresenter.swift */,
 				9FCE74E41DBADD9C0047F1A9 /* BillPresenter.swift */,
+				9F8BDEC61DBBBFD900243DAD /* CreatePaymentPresenter.swift */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -342,6 +395,7 @@
 				9F6448C21DBAD0620053FA62 /* FrontPageViewModel.swift */,
 				9FC1AC161DBAA8480024FDBE /* CreateBillViewModel.swift */,
 				9FCE74E61DBADE0F0047F1A9 /* BillViewModel.swift */,
+				9F8BDEC41DBBBFC300243DAD /* CreatePaymentViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -505,9 +559,11 @@
 			files = (
 				9F6448C91DBAD2910053FA62 /* BillCell.xib in Resources */,
 				9FC1ABDA1DBA93F80024FDBE /* LaunchScreen.storyboard in Resources */,
+				9F8BDEBB1DBBBA9A00243DAD /* CreatePaymentView.xib in Resources */,
 				9FC1AC021DBA98950024FDBE /* FrontPageView.xib in Resources */,
 				9F6448D01DBADAB90053FA62 /* BillView.xib in Resources */,
 				9FC1ABFB1DBA962E0024FDBE /* CreateBillView.xib in Resources */,
+				9F8BDEC11DBBBDCA00243DAD /* PaymentSchplitterCell.xib in Resources */,
 				9FC1AC241DBAB2290024FDBE /* SchplitterCell.xib in Resources */,
 				9FC1ABD71DBA93F80024FDBE /* Assets.xcassets in Resources */,
 				9FC1ABD21DBA93F80024FDBE /* Main.storyboard in Resources */,
@@ -623,24 +679,31 @@
 			files = (
 				9FC1ABF61DBA95DA0024FDBE /* NibLoadingView.swift in Sources */,
 				9FCE74E31DBADD280047F1A9 /* BillInteractor.swift in Sources */,
+				9F8BDEC71DBBBFD900243DAD /* CreatePaymentPresenter.swift in Sources */,
 				9FC1ABFD1DBA96B30024FDBE /* FrontPageViewController.swift in Sources */,
+				9F8BDEB91DBBBA8300243DAD /* CreatePaymentView.swift in Sources */,
 				9F8BDEB21DBB494300243DAD /* BillConfigurator.swift in Sources */,
 				9FC1ABF91DBA96250024FDBE /* CreateBillView.swift in Sources */,
 				9F6448CB1DBAD6210053FA62 /* CreateBillRouter.swift in Sources */,
 				9FC1AC321DBAC82D0024FDBE /* BillService.swift in Sources */,
+				9F8BDEC91DBBBFEA00243DAD /* CreatePaymentInteractor.swift in Sources */,
 				9F6448D21DBADB110053FA62 /* BillViewController.swift in Sources */,
 				9FC1AC171DBAA8480024FDBE /* CreateBillViewModel.swift in Sources */,
 				9FC1AC291DBAC3F80024FDBE /* Bill.swift in Sources */,
 				9FC1ABF31DBA956C0024FDBE /* CreateBillViewController.swift in Sources */,
+				9F8BDEB61DBBBA1600243DAD /* CreatePaymentViewController.swift in Sources */,
 				9FC1ABCD1DBA93F80024FDBE /* AppDelegate.swift in Sources */,
 				9FCE74E71DBADE0F0047F1A9 /* BillViewModel.swift in Sources */,
 				9F8BDEB41DBB497000243DAD /* BillRouter.swift in Sources */,
+				9F8BDEC31DBBBF8900243DAD /* CreatePaymentConfigurator.swift in Sources */,
 				9FC1AC111DBAA74D0024FDBE /* CreateBillConfigurator.swift in Sources */,
+				9F8BDECD1DBBC10D00243DAD /* CreatePaymentRouter.swift in Sources */,
 				9FC1AC2C1DBAC5AF0024FDBE /* BillRepository.swift in Sources */,
 				9FC1AC001DBA988C0024FDBE /* FrontPageView.swift in Sources */,
 				9FC1AC051DBA99690024FDBE /* FrontPageRouter.swift in Sources */,
 				9F6448CE1DBADAAB0053FA62 /* BillView.swift in Sources */,
 				9F6448C71DBAD2890053FA62 /* BillCell.swift in Sources */,
+				9F8BDEBF1DBBBDB300243DAD /* PaymentSchplitterCell.swift in Sources */,
 				9FCE74E51DBADD9C0047F1A9 /* BillPresenter.swift in Sources */,
 				9FC1AC141DBAA7E80024FDBE /* CreateBillPresenter.swift in Sources */,
 				9F6448C31DBAD0620053FA62 /* FrontPageViewModel.swift in Sources */,
@@ -650,6 +713,7 @@
 				9F6448C11DBACD570053FA62 /* FrontPagePresenter.swift in Sources */,
 				9FC1AC2F1DBAC5EF0024FDBE /* RealmBill.swift in Sources */,
 				9FC1AC081DBA9A080024FDBE /* FrontPageConfigurator.swift in Sources */,
+				9F8BDEC51DBBBFC300243DAD /* CreatePaymentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

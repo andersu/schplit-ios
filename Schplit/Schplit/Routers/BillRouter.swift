@@ -9,9 +9,17 @@
 import Foundation
 
 protocol BillRouterInput {
-    
+    func navigateToCreatePayment(bill: Bill)
 }
 
-class BillRouter {
+class BillRouter: BillRouterInput {
     var viewController: BillViewController!
+    
+    func navigateToCreatePayment(bill: Bill) {
+        let createBillViewController = viewController.storyboard?.instantiateViewController(withIdentifier: "CreatePaymentViewController") as! CreatePaymentViewController
+        
+        createBillViewController.bill = bill
+        
+        viewController.navigationController?.pushViewController(createBillViewController, animated: false)
+    }
 }

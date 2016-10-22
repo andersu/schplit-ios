@@ -31,7 +31,9 @@ class BillViewController: UIViewController {
 }
 
 extension BillViewController: BillViewDelegate {
-    
+    func newPaymentButtonClicked() {
+        router.navigateToCreatePayment(bill: bill)
+    }
 }
 
 extension BillViewController: BillPresenterOutput {
