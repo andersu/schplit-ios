@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GroupView" customModule="Schplit" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="D0L-V8-teb" id="3Wm-9Q-lAQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTa-cA-g4t">
+                    <rect key="frame" x="16" y="16" width="343" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="D0L-V8-teb">
+                    <rect key="frame" x="0.0" y="56" width="375" height="513"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgW-Re-jpe">
+                    <rect key="frame" x="16" y="601" width="343" height="50"/>
+                    <color key="backgroundColor" red="0.33333333329999998" green="0.1960784314" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="QSQ-wV-o3H"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <state key="normal" title="New payment">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="newPaymentButtonClicked:" destination="-1" eventType="touchUpInside" id="hLM-9Y-ZAM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="SgW-Re-jpe" secondAttribute="bottom" constant="16" id="6zy-lB-yca"/>
+                <constraint firstItem="tTa-cA-g4t" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="CE9-Um-hQe"/>
+                <constraint firstItem="SgW-Re-jpe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="F8C-QQ-rLZ"/>
+                <constraint firstItem="D0L-V8-teb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LEe-MP-UQz"/>
+                <constraint firstItem="D0L-V8-teb" firstAttribute="top" secondItem="tTa-cA-g4t" secondAttribute="bottom" constant="16" id="Qzm-nR-dhe"/>
+                <constraint firstItem="tTa-cA-g4t" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="S9x-AR-IeS"/>
+                <constraint firstAttribute="trailing" secondItem="tTa-cA-g4t" secondAttribute="trailing" constant="16" id="SkE-2D-VwJ"/>
+                <constraint firstAttribute="trailing" secondItem="SgW-Re-jpe" secondAttribute="trailing" constant="16" id="hvi-Dj-mof"/>
+                <constraint firstAttribute="trailing" secondItem="D0L-V8-teb" secondAttribute="trailing" id="lOT-nN-tdn"/>
+                <constraint firstItem="SgW-Re-jpe" firstAttribute="top" secondItem="D0L-V8-teb" secondAttribute="bottom" constant="32" id="svU-Og-nhe"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="118.5"/>
+        </view>
+    </objects>
+</document>

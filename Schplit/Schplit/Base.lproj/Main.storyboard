@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZzT-tF-7PI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZzT-tF-7PI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--New bill-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="CreateBillViewController" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="CreateBillViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateBillViewController" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="CreateGroupViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,7 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="foZ-CK-AKZ" customClass="CreateBillView" customModule="Schplit" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="foZ-CK-AKZ" customClass="CreateGroupView" customModule="Schplit" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
@@ -34,17 +38,17 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="mG2-Xu-Bkw"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="createBillView" destination="foZ-CK-AKZ" id="ucK-QB-PbN"/>
+                        <outlet property="createGroupView" destination="foZ-CK-AKZ" id="Iap-NX-EPO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="972" y="37.331334332833585"/>
         </scene>
-        <!--Bills-->
+        <!--Groups-->
         <scene sceneID="BPq-fx-GFU">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="qOp-be-ei0" customClass="FrontPageViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="qOp-be-ei0" customClass="GroupListViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rII-Po-C98"/>
                         <viewControllerLayoutGuide type="bottom" id="rtf-mb-dqO"/>
@@ -53,7 +57,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GU1-Gm-y8z" customClass="FrontPageView" customModule="Schplit" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GU1-Gm-y8z" customClass="GroupListView" customModule="Schplit" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
@@ -65,21 +70,21 @@
                             <constraint firstItem="GU1-Gm-y8z" firstAttribute="leading" secondItem="JY2-P8-ymc" secondAttribute="leading" id="qGA-sx-xKM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Bills" id="zS0-ex-FVf"/>
+                    <navigationItem key="navigationItem" title="Groups" id="zS0-ex-FVf"/>
                     <connections>
-                        <outlet property="frontPageView" destination="GU1-Gm-y8z" id="bv8-UP-O4A"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="NewBillSegue" id="rcT-bU-Vz4"/>
-                        <segue destination="VLW-r1-QA0" kind="show" id="CZd-jW-9t2"/>
+                        <outlet property="groupListView" destination="GU1-Gm-y8z" id="9zY-Ua-TKB"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="ShowCreateGroupScene" id="rcT-bU-Vz4"/>
+                        <segue destination="VLW-r1-QA0" kind="show" identifier="ShowGroupScene" id="CZd-jW-9t2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ipX-iD-mIG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-7.2000000000000002" y="36.431784107946029"/>
         </scene>
-        <!--Bill View Controller-->
+        <!--Group View Controller-->
         <scene sceneID="xUX-rV-Vp9">
             <objects>
-                <viewController storyboardIdentifier="BillViewController" id="VLW-r1-QA0" customClass="BillViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupViewController" id="VLW-r1-QA0" customClass="GroupViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4yS-ay-uWD"/>
                         <viewControllerLayoutGuide type="bottom" id="AZF-Bo-I9m"/>
@@ -88,7 +93,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DXp-UM-R8b" customClass="BillView" customModule="Schplit" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DXp-UM-R8b" customClass="GroupView" customModule="Schplit" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
@@ -101,7 +107,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="billView" destination="DXp-UM-R8b" id="VX4-Gj-2mQ"/>
+                        <outlet property="groupView" destination="DXp-UM-R8b" id="Nl4-E7-S67"/>
                         <segue destination="Wi9-Mk-eKo" kind="show" id="4JG-Dg-fjj"/>
                     </connections>
                 </viewController>
@@ -112,7 +118,7 @@
         <!--New payment-->
         <scene sceneID="hVj-rI-3g5">
             <objects>
-                <viewController storyboardIdentifier="CreatePaymentViewController" id="Wi9-Mk-eKo" customClass="CreatePaymentViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddExpenseViewController" id="Wi9-Mk-eKo" customClass="AddExpenseViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VDa-DP-rbk"/>
                         <viewControllerLayoutGuide type="bottom" id="jCl-bG-UcV"/>
@@ -121,7 +127,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GnF-uy-gZi" customClass="CreatePaymentView" customModule="Schplit" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GnF-uy-gZi" customClass="AddExpenseView" customModule="Schplit" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
@@ -135,7 +142,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="New payment" id="BdU-W1-Wl6"/>
                     <connections>
-                        <outlet property="createPaymentView" destination="GnF-uy-gZi" id="ijo-67-cvK"/>
+                        <outlet property="addExpenseView" destination="GnF-uy-gZi" id="8Yz-Ou-jVe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mVu-kK-vom" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -8,58 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		492BA14AC4D21FF919330997 /* Pods_Schplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B125B289520043FC976DD05 /* Pods_Schplit.framework */; };
-		9F6448BF1DBACC6E0053FA62 /* FrontPageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448BE1DBACC6E0053FA62 /* FrontPageInteractor.swift */; };
-		9F6448C11DBACD570053FA62 /* FrontPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448C01DBACD570053FA62 /* FrontPagePresenter.swift */; };
-		9F6448C31DBAD0620053FA62 /* FrontPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448C21DBAD0620053FA62 /* FrontPageViewModel.swift */; };
-		9F6448C71DBAD2890053FA62 /* BillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448C61DBAD2890053FA62 /* BillCell.swift */; };
-		9F6448C91DBAD2910053FA62 /* BillCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6448C81DBAD2910053FA62 /* BillCell.xib */; };
-		9F6448CB1DBAD6210053FA62 /* CreateBillRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448CA1DBAD6210053FA62 /* CreateBillRouter.swift */; };
-		9F6448CE1DBADAAB0053FA62 /* BillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448CD1DBADAAB0053FA62 /* BillView.swift */; };
-		9F6448D01DBADAB90053FA62 /* BillView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6448CF1DBADAB90053FA62 /* BillView.xib */; };
-		9F6448D21DBADB110053FA62 /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6448D11DBADB110053FA62 /* BillViewController.swift */; };
-		9F8BDEB21DBB494300243DAD /* BillConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEB11DBB494300243DAD /* BillConfigurator.swift */; };
-		9F8BDEB41DBB497000243DAD /* BillRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEB31DBB497000243DAD /* BillRouter.swift */; };
-		9F8BDEB61DBBBA1600243DAD /* CreatePaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEB51DBBBA1600243DAD /* CreatePaymentViewController.swift */; };
-		9F8BDEB91DBBBA8300243DAD /* CreatePaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEB81DBBBA8300243DAD /* CreatePaymentView.swift */; };
-		9F8BDEBB1DBBBA9A00243DAD /* CreatePaymentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8BDEBA1DBBBA9A00243DAD /* CreatePaymentView.xib */; };
-		9F8BDEBF1DBBBDB300243DAD /* PaymentSchplitterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEBE1DBBBDB300243DAD /* PaymentSchplitterCell.swift */; };
-		9F8BDEC11DBBBDCA00243DAD /* PaymentSchplitterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8BDEC01DBBBDCA00243DAD /* PaymentSchplitterCell.xib */; };
-		9F8BDEC31DBBBF8900243DAD /* CreatePaymentConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEC21DBBBF8900243DAD /* CreatePaymentConfigurator.swift */; };
-		9F8BDEC51DBBBFC300243DAD /* CreatePaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEC41DBBBFC300243DAD /* CreatePaymentViewModel.swift */; };
-		9F8BDEC71DBBBFD900243DAD /* CreatePaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEC61DBBBFD900243DAD /* CreatePaymentPresenter.swift */; };
-		9F8BDEC91DBBBFEA00243DAD /* CreatePaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDEC81DBBBFEA00243DAD /* CreatePaymentInteractor.swift */; };
-		9F8BDECD1DBBC10D00243DAD /* CreatePaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BDECC1DBBC10D00243DAD /* CreatePaymentRouter.swift */; };
+		9F55C95C1DCE9F190074423B /* AddExpenseConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55C9561DCE9F190074423B /* AddExpenseConfigurator.swift */; };
+		9F55C95D1DCE9F190074423B /* AddExpenseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55C9571DCE9F190074423B /* AddExpenseInteractor.swift */; };
+		9F55C95E1DCE9F190074423B /* AddExpensePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55C9581DCE9F190074423B /* AddExpensePresenter.swift */; };
+		9F55C95F1DCE9F190074423B /* AddExpenseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55C9591DCE9F190074423B /* AddExpenseRouter.swift */; };
+		9F55C9601DCE9F190074423B /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55C95A1DCE9F190074423B /* AddExpenseViewController.swift */; };
+		9F55C9611DCE9F190074423B /* AddExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55C95B1DCE9F190074423B /* AddExpenseViewModel.swift */; };
+		9F55C9671DCEA0270074423B /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55C9651DCEA0270074423B /* AddExpenseView.swift */; };
+		9F55C9681DCEA0270074423B /* AddExpenseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F55C9661DCEA0270074423B /* AddExpenseView.xib */; };
+		9F55C96B1DCEA1EA0074423B /* PaymentSchplitterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55C9691DCEA1EA0074423B /* PaymentSchplitterCell.swift */; };
+		9F55C96C1DCEA1EA0074423B /* PaymentSchplitterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F55C96A1DCEA1EA0074423B /* PaymentSchplitterCell.xib */; };
+		9F8E1B661DCE868D0078BD71 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B641DCE868D0078BD71 /* GroupCell.swift */; };
+		9F8E1B671DCE868D0078BD71 /* GroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8E1B651DCE868D0078BD71 /* GroupCell.xib */; };
+		9F8E1B6D1DCE87C70078BD71 /* CreateGroupConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B681DCE87C70078BD71 /* CreateGroupConfigurator.swift */; };
+		9F8E1B6E1DCE87C70078BD71 /* CreateGroupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B691DCE87C70078BD71 /* CreateGroupInteractor.swift */; };
+		9F8E1B6F1DCE87C70078BD71 /* CreateGroupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B6A1DCE87C70078BD71 /* CreateGroupPresenter.swift */; };
+		9F8E1B701DCE87C70078BD71 /* CreateGroupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B6B1DCE87C70078BD71 /* CreateGroupRouter.swift */; };
+		9F8E1B711DCE87C70078BD71 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B6C1DCE87C70078BD71 /* CreateGroupViewController.swift */; };
+		9F8E1B761DCE88230078BD71 /* CreateGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B721DCE88230078BD71 /* CreateGroupView.swift */; };
+		9F8E1B771DCE88230078BD71 /* CreateGroupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8E1B731DCE88230078BD71 /* CreateGroupView.xib */; };
+		9F8E1B781DCE88230078BD71 /* SchplitterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B741DCE88230078BD71 /* SchplitterCell.swift */; };
+		9F8E1B791DCE88230078BD71 /* SchplitterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8E1B751DCE88230078BD71 /* SchplitterCell.xib */; };
+		9F8E1B7B1DCE892B0078BD71 /* CreateGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B7A1DCE892B0078BD71 /* CreateGroupViewModel.swift */; };
+		9F8E1B7D1DCE89390078BD71 /* GroupListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B7C1DCE89390078BD71 /* GroupListViewModel.swift */; };
+		9F8E1B8E1DCE8A250078BD71 /* GroupConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B891DCE8A250078BD71 /* GroupConfigurator.swift */; };
+		9F8E1B8F1DCE8A250078BD71 /* GroupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B8A1DCE8A250078BD71 /* GroupInteractor.swift */; };
+		9F8E1B901DCE8A250078BD71 /* GroupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B8B1DCE8A250078BD71 /* GroupPresenter.swift */; };
+		9F8E1B911DCE8A250078BD71 /* GroupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B8C1DCE8A250078BD71 /* GroupRouter.swift */; };
+		9F8E1B921DCE8A250078BD71 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B8D1DCE8A250078BD71 /* GroupViewController.swift */; };
+		9F8E1B961DCE8B0F0078BD71 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B941DCE8B0F0078BD71 /* GroupView.swift */; };
+		9F8E1B971DCE8B0F0078BD71 /* GroupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8E1B951DCE8B0F0078BD71 /* GroupView.xib */; };
+		9F8E1B991DCE8C850078BD71 /* GroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E1B981DCE8C850078BD71 /* GroupViewModel.swift */; };
 		9FC1ABCD1DBA93F80024FDBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABCC1DBA93F80024FDBE /* AppDelegate.swift */; };
 		9FC1ABD21DBA93F80024FDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD01DBA93F80024FDBE /* Main.storyboard */; };
 		9FC1ABD71DBA93F80024FDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD61DBA93F80024FDBE /* Assets.xcassets */; };
 		9FC1ABDA1DBA93F80024FDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABD81DBA93F80024FDBE /* LaunchScreen.storyboard */; };
-		9FC1ABF31DBA956C0024FDBE /* CreateBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABF21DBA956C0024FDBE /* CreateBillViewController.swift */; };
 		9FC1ABF61DBA95DA0024FDBE /* NibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABF51DBA95DA0024FDBE /* NibLoadingView.swift */; };
-		9FC1ABF91DBA96250024FDBE /* CreateBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABF81DBA96250024FDBE /* CreateBillView.swift */; };
-		9FC1ABFB1DBA962E0024FDBE /* CreateBillView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1ABFA1DBA962E0024FDBE /* CreateBillView.xib */; };
-		9FC1ABFD1DBA96B30024FDBE /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABFC1DBA96B30024FDBE /* FrontPageViewController.swift */; };
-		9FC1AC001DBA988C0024FDBE /* FrontPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABFF1DBA988C0024FDBE /* FrontPageView.swift */; };
-		9FC1AC021DBA98950024FDBE /* FrontPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1AC011DBA98950024FDBE /* FrontPageView.xib */; };
-		9FC1AC051DBA99690024FDBE /* FrontPageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC041DBA99690024FDBE /* FrontPageRouter.swift */; };
-		9FC1AC081DBA9A080024FDBE /* FrontPageConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC071DBA9A080024FDBE /* FrontPageConfigurator.swift */; };
+		9FC1AC001DBA988C0024FDBE /* GroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1ABFF1DBA988C0024FDBE /* GroupListView.swift */; };
 		9FC1AC0B1DBA9E8F0024FDBE /* FrontPageViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC0A1DBA9E8F0024FDBE /* FrontPageViewControllerTest.swift */; };
-		9FC1AC0F1DBAA7220024FDBE /* CreateBillInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC0E1DBAA7220024FDBE /* CreateBillInteractor.swift */; };
-		9FC1AC111DBAA74D0024FDBE /* CreateBillConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC101DBAA74D0024FDBE /* CreateBillConfigurator.swift */; };
-		9FC1AC141DBAA7E80024FDBE /* CreateBillPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC131DBAA7E80024FDBE /* CreateBillPresenter.swift */; };
-		9FC1AC171DBAA8480024FDBE /* CreateBillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC161DBAA8480024FDBE /* CreateBillViewModel.swift */; };
 		9FC1AC191DBAA8E80024FDBE /* CreateBillViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC181DBAA8E80024FDBE /* CreateBillViewControllerTest.swift */; };
 		9FC1AC1D1DBAAA920024FDBE /* CreateBillInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC1C1DBAAA920024FDBE /* CreateBillInteractorTest.swift */; };
 		9FC1AC1F1DBAABEF0024FDBE /* CreateBillPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC1E1DBAABEF0024FDBE /* CreateBillPresenterTest.swift */; };
-		9FC1AC221DBAB1E30024FDBE /* SchplitterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC211DBAB1E30024FDBE /* SchplitterCell.swift */; };
-		9FC1AC241DBAB2290024FDBE /* SchplitterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1AC231DBAB2290024FDBE /* SchplitterCell.xib */; };
 		9FC1AC261DBAC25F0024FDBE /* AsyncTestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC251DBAC25F0024FDBE /* AsyncTestUtil.swift */; };
-		9FC1AC291DBAC3F80024FDBE /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC281DBAC3F80024FDBE /* Bill.swift */; };
-		9FC1AC2C1DBAC5AF0024FDBE /* BillRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC2B1DBAC5AF0024FDBE /* BillRepository.swift */; };
-		9FC1AC2F1DBAC5EF0024FDBE /* RealmBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC2E1DBAC5EF0024FDBE /* RealmBill.swift */; };
-		9FC1AC321DBAC82D0024FDBE /* BillService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC311DBAC82D0024FDBE /* BillService.swift */; };
-		9FCE74E31DBADD280047F1A9 /* BillInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE74E21DBADD280047F1A9 /* BillInteractor.swift */; };
-		9FCE74E51DBADD9C0047F1A9 /* BillPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE74E41DBADD9C0047F1A9 /* BillPresenter.swift */; };
-		9FCE74E71DBADE0F0047F1A9 /* BillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE74E61DBADE0F0047F1A9 /* BillViewModel.swift */; };
+		9FC1AC291DBAC3F80024FDBE /* SchplitGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC281DBAC3F80024FDBE /* SchplitGroup.swift */; };
+		9FC1AC2C1DBAC5AF0024FDBE /* GroupRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC2B1DBAC5AF0024FDBE /* GroupRepository.swift */; };
+		9FC1AC2F1DBAC5EF0024FDBE /* RealmGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC2E1DBAC5EF0024FDBE /* RealmGroup.swift */; };
+		9FC1AC321DBAC82D0024FDBE /* GroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1AC311DBAC82D0024FDBE /* GroupService.swift */; };
+		9FC78DA11DCE813E001E8520 /* GroupListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC78D9C1DCE813E001E8520 /* GroupListConfigurator.swift */; };
+		9FC78DA21DCE813E001E8520 /* GroupListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC78D9D1DCE813E001E8520 /* GroupListInteractor.swift */; };
+		9FC78DA31DCE813E001E8520 /* GroupListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC78D9E1DCE813E001E8520 /* GroupListPresenter.swift */; };
+		9FC78DA41DCE813E001E8520 /* GroupListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC78D9F1DCE813E001E8520 /* GroupListRouter.swift */; };
+		9FC78DA51DCE813E001E8520 /* GroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC78DA01DCE813E001E8520 /* GroupListViewController.swift */; };
+		9FC78DA71DCE8250001E8520 /* GroupListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC78DA61DCE8250001E8520 /* GroupListView.xib */; };
 		C67B65AD32C8F86313649C76 /* Pods_SchplitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7941BC193422552E5543FD0B /* Pods_SchplitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,27 +80,37 @@
 		7941BC193422552E5543FD0B /* Pods_SchplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchplitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABE3F0B1C095C63D78B4FF4 /* Pods-SchplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchplitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchplitTests/Pods-SchplitTests.release.xcconfig"; sourceTree = "<group>"; };
 		7C3EDCB2AE5339F3B4C3F988 /* Pods-Schplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schplit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Schplit/Pods-Schplit.release.xcconfig"; sourceTree = "<group>"; };
-		9F6448BE1DBACC6E0053FA62 /* FrontPageInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageInteractor.swift; sourceTree = "<group>"; };
-		9F6448C01DBACD570053FA62 /* FrontPagePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPagePresenter.swift; sourceTree = "<group>"; };
-		9F6448C21DBAD0620053FA62 /* FrontPageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageViewModel.swift; sourceTree = "<group>"; };
-		9F6448C61DBAD2890053FA62 /* BillCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillCell.swift; sourceTree = "<group>"; };
-		9F6448C81DBAD2910053FA62 /* BillCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BillCell.xib; sourceTree = "<group>"; };
-		9F6448CA1DBAD6210053FA62 /* CreateBillRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillRouter.swift; sourceTree = "<group>"; };
-		9F6448CD1DBADAAB0053FA62 /* BillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillView.swift; sourceTree = "<group>"; };
-		9F6448CF1DBADAB90053FA62 /* BillView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BillView.xib; sourceTree = "<group>"; };
-		9F6448D11DBADB110053FA62 /* BillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
-		9F8BDEB11DBB494300243DAD /* BillConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillConfigurator.swift; sourceTree = "<group>"; };
-		9F8BDEB31DBB497000243DAD /* BillRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillRouter.swift; sourceTree = "<group>"; };
-		9F8BDEB51DBBBA1600243DAD /* CreatePaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentViewController.swift; sourceTree = "<group>"; };
-		9F8BDEB81DBBBA8300243DAD /* CreatePaymentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentView.swift; sourceTree = "<group>"; };
-		9F8BDEBA1DBBBA9A00243DAD /* CreatePaymentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreatePaymentView.xib; sourceTree = "<group>"; };
-		9F8BDEBE1DBBBDB300243DAD /* PaymentSchplitterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSchplitterCell.swift; sourceTree = "<group>"; };
-		9F8BDEC01DBBBDCA00243DAD /* PaymentSchplitterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentSchplitterCell.xib; sourceTree = "<group>"; };
-		9F8BDEC21DBBBF8900243DAD /* CreatePaymentConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentConfigurator.swift; sourceTree = "<group>"; };
-		9F8BDEC41DBBBFC300243DAD /* CreatePaymentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentViewModel.swift; sourceTree = "<group>"; };
-		9F8BDEC61DBBBFD900243DAD /* CreatePaymentPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentPresenter.swift; sourceTree = "<group>"; };
-		9F8BDEC81DBBBFEA00243DAD /* CreatePaymentInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentInteractor.swift; sourceTree = "<group>"; };
-		9F8BDECC1DBBC10D00243DAD /* CreatePaymentRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePaymentRouter.swift; sourceTree = "<group>"; };
+		9F55C9561DCE9F190074423B /* AddExpenseConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseConfigurator.swift; sourceTree = "<group>"; };
+		9F55C9571DCE9F190074423B /* AddExpenseInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseInteractor.swift; sourceTree = "<group>"; };
+		9F55C9581DCE9F190074423B /* AddExpensePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpensePresenter.swift; sourceTree = "<group>"; };
+		9F55C9591DCE9F190074423B /* AddExpenseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseRouter.swift; sourceTree = "<group>"; };
+		9F55C95A1DCE9F190074423B /* AddExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		9F55C95B1DCE9F190074423B /* AddExpenseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseViewModel.swift; sourceTree = "<group>"; };
+		9F55C9651DCEA0270074423B /* AddExpenseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		9F55C9661DCEA0270074423B /* AddExpenseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddExpenseView.xib; sourceTree = "<group>"; };
+		9F55C9691DCEA1EA0074423B /* PaymentSchplitterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSchplitterCell.swift; sourceTree = "<group>"; };
+		9F55C96A1DCEA1EA0074423B /* PaymentSchplitterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentSchplitterCell.xib; sourceTree = "<group>"; };
+		9F8E1B641DCE868D0078BD71 /* GroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		9F8E1B651DCE868D0078BD71 /* GroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupCell.xib; sourceTree = "<group>"; };
+		9F8E1B681DCE87C70078BD71 /* CreateGroupConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupConfigurator.swift; sourceTree = "<group>"; };
+		9F8E1B691DCE87C70078BD71 /* CreateGroupInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupInteractor.swift; sourceTree = "<group>"; };
+		9F8E1B6A1DCE87C70078BD71 /* CreateGroupPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupPresenter.swift; sourceTree = "<group>"; };
+		9F8E1B6B1DCE87C70078BD71 /* CreateGroupRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupRouter.swift; sourceTree = "<group>"; };
+		9F8E1B6C1DCE87C70078BD71 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		9F8E1B721DCE88230078BD71 /* CreateGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupView.swift; sourceTree = "<group>"; };
+		9F8E1B731DCE88230078BD71 /* CreateGroupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateGroupView.xib; sourceTree = "<group>"; };
+		9F8E1B741DCE88230078BD71 /* SchplitterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchplitterCell.swift; sourceTree = "<group>"; };
+		9F8E1B751DCE88230078BD71 /* SchplitterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchplitterCell.xib; sourceTree = "<group>"; };
+		9F8E1B7A1DCE892B0078BD71 /* CreateGroupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupViewModel.swift; sourceTree = "<group>"; };
+		9F8E1B7C1DCE89390078BD71 /* GroupListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListViewModel.swift; sourceTree = "<group>"; };
+		9F8E1B891DCE8A250078BD71 /* GroupConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupConfigurator.swift; sourceTree = "<group>"; };
+		9F8E1B8A1DCE8A250078BD71 /* GroupInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupInteractor.swift; sourceTree = "<group>"; };
+		9F8E1B8B1DCE8A250078BD71 /* GroupPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupPresenter.swift; sourceTree = "<group>"; };
+		9F8E1B8C1DCE8A250078BD71 /* GroupRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupRouter.swift; sourceTree = "<group>"; };
+		9F8E1B8D1DCE8A250078BD71 /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		9F8E1B941DCE8B0F0078BD71 /* GroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		9F8E1B951DCE8B0F0078BD71 /* GroupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupView.xib; sourceTree = "<group>"; };
+		9F8E1B981DCE8C850078BD71 /* GroupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewModel.swift; sourceTree = "<group>"; };
 		9FC1ABC91DBA93F80024FDBE /* Schplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC1ABCC1DBA93F80024FDBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC1ABD11DBA93F80024FDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,33 +119,23 @@
 		9FC1ABDB1DBA93F80024FDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC1ABE01DBA93F80024FDBE /* SchplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC1ABE61DBA93F80024FDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FC1ABF21DBA956C0024FDBE /* CreateBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillViewController.swift; sourceTree = "<group>"; };
 		9FC1ABF51DBA95DA0024FDBE /* NibLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadingView.swift; sourceTree = "<group>"; };
-		9FC1ABF81DBA96250024FDBE /* CreateBillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillView.swift; sourceTree = "<group>"; };
-		9FC1ABFA1DBA962E0024FDBE /* CreateBillView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateBillView.xib; sourceTree = "<group>"; };
-		9FC1ABFC1DBA96B30024FDBE /* FrontPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageViewController.swift; sourceTree = "<group>"; };
-		9FC1ABFF1DBA988C0024FDBE /* FrontPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageView.swift; sourceTree = "<group>"; };
-		9FC1AC011DBA98950024FDBE /* FrontPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrontPageView.xib; sourceTree = "<group>"; };
-		9FC1AC041DBA99690024FDBE /* FrontPageRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageRouter.swift; sourceTree = "<group>"; };
-		9FC1AC071DBA9A080024FDBE /* FrontPageConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageConfigurator.swift; sourceTree = "<group>"; };
+		9FC1ABFF1DBA988C0024FDBE /* GroupListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListView.swift; sourceTree = "<group>"; };
 		9FC1AC0A1DBA9E8F0024FDBE /* FrontPageViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageViewControllerTest.swift; sourceTree = "<group>"; };
-		9FC1AC0E1DBAA7220024FDBE /* CreateBillInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillInteractor.swift; sourceTree = "<group>"; };
-		9FC1AC101DBAA74D0024FDBE /* CreateBillConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillConfigurator.swift; sourceTree = "<group>"; };
-		9FC1AC131DBAA7E80024FDBE /* CreateBillPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillPresenter.swift; sourceTree = "<group>"; };
-		9FC1AC161DBAA8480024FDBE /* CreateBillViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillViewModel.swift; sourceTree = "<group>"; };
 		9FC1AC181DBAA8E80024FDBE /* CreateBillViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillViewControllerTest.swift; sourceTree = "<group>"; };
 		9FC1AC1C1DBAAA920024FDBE /* CreateBillInteractorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillInteractorTest.swift; sourceTree = "<group>"; };
 		9FC1AC1E1DBAABEF0024FDBE /* CreateBillPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBillPresenterTest.swift; sourceTree = "<group>"; };
-		9FC1AC211DBAB1E30024FDBE /* SchplitterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchplitterCell.swift; sourceTree = "<group>"; };
-		9FC1AC231DBAB2290024FDBE /* SchplitterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchplitterCell.xib; sourceTree = "<group>"; };
 		9FC1AC251DBAC25F0024FDBE /* AsyncTestUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncTestUtil.swift; sourceTree = "<group>"; };
-		9FC1AC281DBAC3F80024FDBE /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
-		9FC1AC2B1DBAC5AF0024FDBE /* BillRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillRepository.swift; sourceTree = "<group>"; };
-		9FC1AC2E1DBAC5EF0024FDBE /* RealmBill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmBill.swift; sourceTree = "<group>"; };
-		9FC1AC311DBAC82D0024FDBE /* BillService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillService.swift; sourceTree = "<group>"; };
-		9FCE74E21DBADD280047F1A9 /* BillInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillInteractor.swift; sourceTree = "<group>"; };
-		9FCE74E41DBADD9C0047F1A9 /* BillPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillPresenter.swift; sourceTree = "<group>"; };
-		9FCE74E61DBADE0F0047F1A9 /* BillViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillViewModel.swift; sourceTree = "<group>"; };
+		9FC1AC281DBAC3F80024FDBE /* SchplitGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchplitGroup.swift; sourceTree = "<group>"; };
+		9FC1AC2B1DBAC5AF0024FDBE /* GroupRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupRepository.swift; sourceTree = "<group>"; };
+		9FC1AC2E1DBAC5EF0024FDBE /* RealmGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmGroup.swift; sourceTree = "<group>"; };
+		9FC1AC311DBAC82D0024FDBE /* GroupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupService.swift; sourceTree = "<group>"; };
+		9FC78D9C1DCE813E001E8520 /* GroupListConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListConfigurator.swift; sourceTree = "<group>"; };
+		9FC78D9D1DCE813E001E8520 /* GroupListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListInteractor.swift; sourceTree = "<group>"; };
+		9FC78D9E1DCE813E001E8520 /* GroupListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListPresenter.swift; sourceTree = "<group>"; };
+		9FC78D9F1DCE813E001E8520 /* GroupListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListRouter.swift; sourceTree = "<group>"; };
+		9FC78DA01DCE813E001E8520 /* GroupListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListViewController.swift; sourceTree = "<group>"; };
+		9FC78DA61DCE8250001E8520 /* GroupListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupListView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,57 +169,77 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9F6448C41DBAD2670053FA62 /* Cells */ = {
+		9F55C9641DCEA0180074423B /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				9F6448C51DBAD2750053FA62 /* BillCell */,
+				9F55C9651DCEA0270074423B /* AddExpenseView.swift */,
+				9F55C9661DCEA0270074423B /* AddExpenseView.xib */,
+				9F55C9691DCEA1EA0074423B /* PaymentSchplitterCell.swift */,
+				9F55C96A1DCEA1EA0074423B /* PaymentSchplitterCell.xib */,
 			);
-			path = Cells;
+			path = UI;
 			sourceTree = "<group>";
 		};
-		9F6448C51DBAD2750053FA62 /* BillCell */ = {
+		9F8E1B621DCE86080078BD71 /* CreateGroup */ = {
 			isa = PBXGroup;
 			children = (
-				9F6448C61DBAD2890053FA62 /* BillCell.swift */,
-				9F6448C81DBAD2910053FA62 /* BillCell.xib */,
+				9F8E1B631DCE861A0078BD71 /* UI */,
+				9F8E1B681DCE87C70078BD71 /* CreateGroupConfigurator.swift */,
+				9F8E1B691DCE87C70078BD71 /* CreateGroupInteractor.swift */,
+				9F8E1B6A1DCE87C70078BD71 /* CreateGroupPresenter.swift */,
+				9F8E1B6B1DCE87C70078BD71 /* CreateGroupRouter.swift */,
+				9F8E1B6C1DCE87C70078BD71 /* CreateGroupViewController.swift */,
+				9F8E1B7A1DCE892B0078BD71 /* CreateGroupViewModel.swift */,
 			);
-			path = BillCell;
+			path = CreateGroup;
 			sourceTree = "<group>";
 		};
-		9F6448CC1DBADA950053FA62 /* BillView */ = {
+		9F8E1B631DCE861A0078BD71 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				9F6448CD1DBADAAB0053FA62 /* BillView.swift */,
-				9F6448CF1DBADAB90053FA62 /* BillView.xib */,
+				9F8E1B721DCE88230078BD71 /* CreateGroupView.swift */,
+				9F8E1B731DCE88230078BD71 /* CreateGroupView.xib */,
+				9F8E1B741DCE88230078BD71 /* SchplitterCell.swift */,
+				9F8E1B751DCE88230078BD71 /* SchplitterCell.xib */,
 			);
-			path = BillView;
+			path = UI;
 			sourceTree = "<group>";
 		};
-		9F8BDEB71DBBBA6600243DAD /* CreatePaymentView */ = {
+		9F8E1B881DCE8A090078BD71 /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				9F8BDEB81DBBBA8300243DAD /* CreatePaymentView.swift */,
-				9F8BDEBA1DBBBA9A00243DAD /* CreatePaymentView.xib */,
-				9F8BDEBC1DBBBD9900243DAD /* Cells */,
+				9F8E1B931DCE8AE60078BD71 /* UI */,
+				9F8E1B891DCE8A250078BD71 /* GroupConfigurator.swift */,
+				9F8E1B8A1DCE8A250078BD71 /* GroupInteractor.swift */,
+				9F8E1B8B1DCE8A250078BD71 /* GroupPresenter.swift */,
+				9F8E1B8C1DCE8A250078BD71 /* GroupRouter.swift */,
+				9F8E1B8D1DCE8A250078BD71 /* GroupViewController.swift */,
+				9F8E1B981DCE8C850078BD71 /* GroupViewModel.swift */,
 			);
-			path = CreatePaymentView;
+			path = Group;
 			sourceTree = "<group>";
 		};
-		9F8BDEBC1DBBBD9900243DAD /* Cells */ = {
+		9F8E1B931DCE8AE60078BD71 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				9F8BDEBD1DBBBDA200243DAD /* PaymentSchplitterCell */,
+				9F8E1B941DCE8B0F0078BD71 /* GroupView.swift */,
+				9F8E1B951DCE8B0F0078BD71 /* GroupView.xib */,
 			);
-			path = Cells;
+			path = UI;
 			sourceTree = "<group>";
 		};
-		9F8BDEBD1DBBBDA200243DAD /* PaymentSchplitterCell */ = {
+		9F8E1B9A1DCE99FD0078BD71 /* AddExpense */ = {
 			isa = PBXGroup;
 			children = (
-				9F8BDEBE1DBBBDB300243DAD /* PaymentSchplitterCell.swift */,
-				9F8BDEC01DBBBDCA00243DAD /* PaymentSchplitterCell.xib */,
+				9F55C9641DCEA0180074423B /* UI */,
+				9F55C9561DCE9F190074423B /* AddExpenseConfigurator.swift */,
+				9F55C9571DCE9F190074423B /* AddExpenseInteractor.swift */,
+				9F55C9581DCE9F190074423B /* AddExpensePresenter.swift */,
+				9F55C9591DCE9F190074423B /* AddExpenseRouter.swift */,
+				9F55C95A1DCE9F190074423B /* AddExpenseViewController.swift */,
+				9F55C95B1DCE9F190074423B /* AddExpenseViewModel.swift */,
 			);
-			path = PaymentSchplitterCell;
+			path = AddExpense;
 			sourceTree = "<group>";
 		};
 		9FC1ABC01DBA93F80024FDBE = {
@@ -249,17 +269,12 @@
 				9FC1ABD61DBA93F80024FDBE /* Assets.xcassets */,
 				9FC1ABDB1DBA93F80024FDBE /* Info.plist */,
 				9FC1ABEF1DBA95080024FDBE /* Storyboards */,
+				9FC78D991DCE8105001E8520 /* Scenes */,
 				9FC1ABF01DBA95360024FDBE /* Views */,
-				9FC1ABF11DBA954B0024FDBE /* ViewControllers */,
-				9FC1AC0D1DBAA6A10024FDBE /* Interactors */,
-				9FC1AC121DBAA7CD0024FDBE /* Presenters */,
-				9FC1AC151DBAA8300024FDBE /* ViewModels */,
 				9FC1AC271DBAC3E50024FDBE /* Models */,
 				9FC1AC301DBAC81A0024FDBE /* Services */,
 				9FC1AC2A1DBAC5970024FDBE /* Repositories */,
-				9FC1AC031DBA99540024FDBE /* Routers */,
 				9FC1AC2D1DBAC5DB0024FDBE /* RealmModels */,
-				9FC1AC061DBA99E10024FDBE /* Configurators */,
 			);
 			path = Schplit;
 			sourceTree = "<group>";
@@ -288,24 +303,9 @@
 		9FC1ABF01DBA95360024FDBE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9FC1ABFE1DBA987A0024FDBE /* FrontPageView */,
-				9FC1ABF71DBA95F00024FDBE /* CreateBillView */,
-				9F6448CC1DBADA950053FA62 /* BillView */,
-				9F8BDEB71DBBBA6600243DAD /* CreatePaymentView */,
 				9FC1ABF41DBA958D0024FDBE /* NibLoadingView */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		9FC1ABF11DBA954B0024FDBE /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				9FC1ABFC1DBA96B30024FDBE /* FrontPageViewController.swift */,
-				9FC1ABF21DBA956C0024FDBE /* CreateBillViewController.swift */,
-				9F6448D11DBADB110053FA62 /* BillViewController.swift */,
-				9F8BDEB51DBBBA1600243DAD /* CreatePaymentViewController.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		9FC1ABF41DBA958D0024FDBE /* NibLoadingView */ = {
@@ -316,48 +316,6 @@
 			path = NibLoadingView;
 			sourceTree = "<group>";
 		};
-		9FC1ABF71DBA95F00024FDBE /* CreateBillView */ = {
-			isa = PBXGroup;
-			children = (
-				9FC1AC201DBAB1CF0024FDBE /* Cells */,
-				9FC1ABF81DBA96250024FDBE /* CreateBillView.swift */,
-				9FC1ABFA1DBA962E0024FDBE /* CreateBillView.xib */,
-			);
-			path = CreateBillView;
-			sourceTree = "<group>";
-		};
-		9FC1ABFE1DBA987A0024FDBE /* FrontPageView */ = {
-			isa = PBXGroup;
-			children = (
-				9FC1ABFF1DBA988C0024FDBE /* FrontPageView.swift */,
-				9FC1AC011DBA98950024FDBE /* FrontPageView.xib */,
-				9F6448C41DBAD2670053FA62 /* Cells */,
-			);
-			path = FrontPageView;
-			sourceTree = "<group>";
-		};
-		9FC1AC031DBA99540024FDBE /* Routers */ = {
-			isa = PBXGroup;
-			children = (
-				9FC1AC041DBA99690024FDBE /* FrontPageRouter.swift */,
-				9F6448CA1DBAD6210053FA62 /* CreateBillRouter.swift */,
-				9F8BDEB31DBB497000243DAD /* BillRouter.swift */,
-				9F8BDECC1DBBC10D00243DAD /* CreatePaymentRouter.swift */,
-			);
-			path = Routers;
-			sourceTree = "<group>";
-		};
-		9FC1AC061DBA99E10024FDBE /* Configurators */ = {
-			isa = PBXGroup;
-			children = (
-				9FC1AC071DBA9A080024FDBE /* FrontPageConfigurator.swift */,
-				9FC1AC101DBAA74D0024FDBE /* CreateBillConfigurator.swift */,
-				9F8BDEB11DBB494300243DAD /* BillConfigurator.swift */,
-				9F8BDEC21DBBBF8900243DAD /* CreatePaymentConfigurator.swift */,
-			);
-			path = Configurators;
-			sourceTree = "<group>";
-		};
 		9FC1AC091DBA9E790024FDBE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,39 +323,6 @@
 				9FC1AC181DBAA8E80024FDBE /* CreateBillViewControllerTest.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		9FC1AC0D1DBAA6A10024FDBE /* Interactors */ = {
-			isa = PBXGroup;
-			children = (
-				9F6448BE1DBACC6E0053FA62 /* FrontPageInteractor.swift */,
-				9FC1AC0E1DBAA7220024FDBE /* CreateBillInteractor.swift */,
-				9FCE74E21DBADD280047F1A9 /* BillInteractor.swift */,
-				9F8BDEC81DBBBFEA00243DAD /* CreatePaymentInteractor.swift */,
-			);
-			path = Interactors;
-			sourceTree = "<group>";
-		};
-		9FC1AC121DBAA7CD0024FDBE /* Presenters */ = {
-			isa = PBXGroup;
-			children = (
-				9F6448C01DBACD570053FA62 /* FrontPagePresenter.swift */,
-				9FC1AC131DBAA7E80024FDBE /* CreateBillPresenter.swift */,
-				9FCE74E41DBADD9C0047F1A9 /* BillPresenter.swift */,
-				9F8BDEC61DBBBFD900243DAD /* CreatePaymentPresenter.swift */,
-			);
-			path = Presenters;
-			sourceTree = "<group>";
-		};
-		9FC1AC151DBAA8300024FDBE /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				9F6448C21DBAD0620053FA62 /* FrontPageViewModel.swift */,
-				9FC1AC161DBAA8480024FDBE /* CreateBillViewModel.swift */,
-				9FCE74E61DBADE0F0047F1A9 /* BillViewModel.swift */,
-				9F8BDEC41DBBBFC300243DAD /* CreatePaymentViewModel.swift */,
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		9FC1AC1A1DBAAA670024FDBE /* Interactors */ = {
@@ -416,19 +341,10 @@
 			path = Presenters;
 			sourceTree = "<group>";
 		};
-		9FC1AC201DBAB1CF0024FDBE /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				9FC1AC211DBAB1E30024FDBE /* SchplitterCell.swift */,
-				9FC1AC231DBAB2290024FDBE /* SchplitterCell.xib */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
 		9FC1AC271DBAC3E50024FDBE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9FC1AC281DBAC3F80024FDBE /* Bill.swift */,
+				9FC1AC281DBAC3F80024FDBE /* SchplitGroup.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -436,7 +352,7 @@
 		9FC1AC2A1DBAC5970024FDBE /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				9FC1AC2B1DBAC5AF0024FDBE /* BillRepository.swift */,
+				9FC1AC2B1DBAC5AF0024FDBE /* GroupRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -444,7 +360,7 @@
 		9FC1AC2D1DBAC5DB0024FDBE /* RealmModels */ = {
 			isa = PBXGroup;
 			children = (
-				9FC1AC2E1DBAC5EF0024FDBE /* RealmBill.swift */,
+				9FC1AC2E1DBAC5EF0024FDBE /* RealmGroup.swift */,
 			);
 			path = RealmModels;
 			sourceTree = "<group>";
@@ -452,9 +368,45 @@
 		9FC1AC301DBAC81A0024FDBE /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				9FC1AC311DBAC82D0024FDBE /* BillService.swift */,
+				9FC1AC311DBAC82D0024FDBE /* GroupService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		9FC78D991DCE8105001E8520 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9F8E1B621DCE86080078BD71 /* CreateGroup */,
+				9FC78D9A1DCE8114001E8520 /* GroupList */,
+				9F8E1B881DCE8A090078BD71 /* Group */,
+				9F8E1B9A1DCE99FD0078BD71 /* AddExpense */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9FC78D9A1DCE8114001E8520 /* GroupList */ = {
+			isa = PBXGroup;
+			children = (
+				9FC78D9B1DCE8120001E8520 /* UI */,
+				9FC78D9C1DCE813E001E8520 /* GroupListConfigurator.swift */,
+				9FC78D9D1DCE813E001E8520 /* GroupListInteractor.swift */,
+				9FC78D9E1DCE813E001E8520 /* GroupListPresenter.swift */,
+				9FC78D9F1DCE813E001E8520 /* GroupListRouter.swift */,
+				9FC78DA01DCE813E001E8520 /* GroupListViewController.swift */,
+				9F8E1B7C1DCE89390078BD71 /* GroupListViewModel.swift */,
+			);
+			path = GroupList;
+			sourceTree = "<group>";
+		};
+		9FC78D9B1DCE8120001E8520 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9F8E1B641DCE868D0078BD71 /* GroupCell.swift */,
+				9F8E1B651DCE868D0078BD71 /* GroupCell.xib */,
+				9FC1ABFF1DBA988C0024FDBE /* GroupListView.swift */,
+				9FC78DA61DCE8250001E8520 /* GroupListView.xib */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		D12EF201340C2237B9357660 /* Frameworks */ = {
@@ -557,14 +509,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6448C91DBAD2910053FA62 /* BillCell.xib in Resources */,
+				9F55C9681DCEA0270074423B /* AddExpenseView.xib in Resources */,
+				9FC78DA71DCE8250001E8520 /* GroupListView.xib in Resources */,
 				9FC1ABDA1DBA93F80024FDBE /* LaunchScreen.storyboard in Resources */,
-				9F8BDEBB1DBBBA9A00243DAD /* CreatePaymentView.xib in Resources */,
-				9FC1AC021DBA98950024FDBE /* FrontPageView.xib in Resources */,
-				9F6448D01DBADAB90053FA62 /* BillView.xib in Resources */,
-				9FC1ABFB1DBA962E0024FDBE /* CreateBillView.xib in Resources */,
-				9F8BDEC11DBBBDCA00243DAD /* PaymentSchplitterCell.xib in Resources */,
-				9FC1AC241DBAB2290024FDBE /* SchplitterCell.xib in Resources */,
+				9F8E1B771DCE88230078BD71 /* CreateGroupView.xib in Resources */,
+				9F8E1B791DCE88230078BD71 /* SchplitterCell.xib in Resources */,
+				9F8E1B671DCE868D0078BD71 /* GroupCell.xib in Resources */,
+				9F55C96C1DCEA1EA0074423B /* PaymentSchplitterCell.xib in Resources */,
+				9F8E1B971DCE8B0F0078BD71 /* GroupView.xib in Resources */,
 				9FC1ABD71DBA93F80024FDBE /* Assets.xcassets in Resources */,
 				9FC1ABD21DBA93F80024FDBE /* Main.storyboard in Resources */,
 			);
@@ -678,42 +630,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC1ABF61DBA95DA0024FDBE /* NibLoadingView.swift in Sources */,
-				9FCE74E31DBADD280047F1A9 /* BillInteractor.swift in Sources */,
-				9F8BDEC71DBBBFD900243DAD /* CreatePaymentPresenter.swift in Sources */,
-				9FC1ABFD1DBA96B30024FDBE /* FrontPageViewController.swift in Sources */,
-				9F8BDEB91DBBBA8300243DAD /* CreatePaymentView.swift in Sources */,
-				9F8BDEB21DBB494300243DAD /* BillConfigurator.swift in Sources */,
-				9FC1ABF91DBA96250024FDBE /* CreateBillView.swift in Sources */,
-				9F6448CB1DBAD6210053FA62 /* CreateBillRouter.swift in Sources */,
-				9FC1AC321DBAC82D0024FDBE /* BillService.swift in Sources */,
-				9F8BDEC91DBBBFEA00243DAD /* CreatePaymentInteractor.swift in Sources */,
-				9F6448D21DBADB110053FA62 /* BillViewController.swift in Sources */,
-				9FC1AC171DBAA8480024FDBE /* CreateBillViewModel.swift in Sources */,
-				9FC1AC291DBAC3F80024FDBE /* Bill.swift in Sources */,
-				9FC1ABF31DBA956C0024FDBE /* CreateBillViewController.swift in Sources */,
-				9F8BDEB61DBBBA1600243DAD /* CreatePaymentViewController.swift in Sources */,
+				9F55C9671DCEA0270074423B /* AddExpenseView.swift in Sources */,
+				9FC1AC321DBAC82D0024FDBE /* GroupService.swift in Sources */,
+				9F8E1B961DCE8B0F0078BD71 /* GroupView.swift in Sources */,
+				9F55C95F1DCE9F190074423B /* AddExpenseRouter.swift in Sources */,
+				9F8E1B711DCE87C70078BD71 /* CreateGroupViewController.swift in Sources */,
+				9F8E1B991DCE8C850078BD71 /* GroupViewModel.swift in Sources */,
+				9FC1AC291DBAC3F80024FDBE /* SchplitGroup.swift in Sources */,
 				9FC1ABCD1DBA93F80024FDBE /* AppDelegate.swift in Sources */,
-				9FCE74E71DBADE0F0047F1A9 /* BillViewModel.swift in Sources */,
-				9F8BDEB41DBB497000243DAD /* BillRouter.swift in Sources */,
-				9F8BDEC31DBBBF8900243DAD /* CreatePaymentConfigurator.swift in Sources */,
-				9FC1AC111DBAA74D0024FDBE /* CreateBillConfigurator.swift in Sources */,
-				9F8BDECD1DBBC10D00243DAD /* CreatePaymentRouter.swift in Sources */,
-				9FC1AC2C1DBAC5AF0024FDBE /* BillRepository.swift in Sources */,
-				9FC1AC001DBA988C0024FDBE /* FrontPageView.swift in Sources */,
-				9FC1AC051DBA99690024FDBE /* FrontPageRouter.swift in Sources */,
-				9F6448CE1DBADAAB0053FA62 /* BillView.swift in Sources */,
-				9F6448C71DBAD2890053FA62 /* BillCell.swift in Sources */,
-				9F8BDEBF1DBBBDB300243DAD /* PaymentSchplitterCell.swift in Sources */,
-				9FCE74E51DBADD9C0047F1A9 /* BillPresenter.swift in Sources */,
-				9FC1AC141DBAA7E80024FDBE /* CreateBillPresenter.swift in Sources */,
-				9F6448C31DBAD0620053FA62 /* FrontPageViewModel.swift in Sources */,
-				9FC1AC0F1DBAA7220024FDBE /* CreateBillInteractor.swift in Sources */,
-				9FC1AC221DBAB1E30024FDBE /* SchplitterCell.swift in Sources */,
-				9F6448BF1DBACC6E0053FA62 /* FrontPageInteractor.swift in Sources */,
-				9F6448C11DBACD570053FA62 /* FrontPagePresenter.swift in Sources */,
-				9FC1AC2F1DBAC5EF0024FDBE /* RealmBill.swift in Sources */,
-				9FC1AC081DBA9A080024FDBE /* FrontPageConfigurator.swift in Sources */,
-				9F8BDEC51DBBBFC300243DAD /* CreatePaymentViewModel.swift in Sources */,
+				9F8E1B661DCE868D0078BD71 /* GroupCell.swift in Sources */,
+				9F55C9601DCE9F190074423B /* AddExpenseViewController.swift in Sources */,
+				9F55C95E1DCE9F190074423B /* AddExpensePresenter.swift in Sources */,
+				9F8E1B901DCE8A250078BD71 /* GroupPresenter.swift in Sources */,
+				9F8E1B781DCE88230078BD71 /* SchplitterCell.swift in Sources */,
+				9FC1AC2C1DBAC5AF0024FDBE /* GroupRepository.swift in Sources */,
+				9FC78DA41DCE813E001E8520 /* GroupListRouter.swift in Sources */,
+				9F55C95D1DCE9F190074423B /* AddExpenseInteractor.swift in Sources */,
+				9F8E1B7D1DCE89390078BD71 /* GroupListViewModel.swift in Sources */,
+				9FC1AC001DBA988C0024FDBE /* GroupListView.swift in Sources */,
+				9F55C9611DCE9F190074423B /* AddExpenseViewModel.swift in Sources */,
+				9F8E1B761DCE88230078BD71 /* CreateGroupView.swift in Sources */,
+				9F8E1B8E1DCE8A250078BD71 /* GroupConfigurator.swift in Sources */,
+				9F8E1B911DCE8A250078BD71 /* GroupRouter.swift in Sources */,
+				9F55C95C1DCE9F190074423B /* AddExpenseConfigurator.swift in Sources */,
+				9F55C96B1DCEA1EA0074423B /* PaymentSchplitterCell.swift in Sources */,
+				9F8E1B6D1DCE87C70078BD71 /* CreateGroupConfigurator.swift in Sources */,
+				9FC78DA31DCE813E001E8520 /* GroupListPresenter.swift in Sources */,
+				9F8E1B7B1DCE892B0078BD71 /* CreateGroupViewModel.swift in Sources */,
+				9FC78DA11DCE813E001E8520 /* GroupListConfigurator.swift in Sources */,
+				9F8E1B921DCE8A250078BD71 /* GroupViewController.swift in Sources */,
+				9F8E1B8F1DCE8A250078BD71 /* GroupInteractor.swift in Sources */,
+				9FC78DA51DCE813E001E8520 /* GroupListViewController.swift in Sources */,
+				9FC78DA21DCE813E001E8520 /* GroupListInteractor.swift in Sources */,
+				9F8E1B701DCE87C70078BD71 /* CreateGroupRouter.swift in Sources */,
+				9F8E1B6E1DCE87C70078BD71 /* CreateGroupInteractor.swift in Sources */,
+				9FC1AC2F1DBAC5EF0024FDBE /* RealmGroup.swift in Sources */,
+				9F8E1B6F1DCE87C70078BD71 /* CreateGroupPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
