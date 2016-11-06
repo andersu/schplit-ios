@@ -9,11 +9,11 @@
 import UIKit
 
 protocol GroupRouterInput {
-       func navigateToCreatePayment(group: SchplitGroup)
+    func navigateToAddExpense()
 }
 
 protocol GroupRouterDataSource: class {
-    
+    var group: SchplitGroup! { get }
 }
 
 protocol GroupRouterDataDestination: class {
@@ -26,6 +26,10 @@ class GroupRouter: GroupRouterInput {
     weak private var dataSource: GroupRouterDataSource!
     weak var dataDestination: GroupRouterDataDestination!
     
+    struct SegueIdentifiers {
+        static let addExpense = "ShowAddExpenseScene"
+    }
+    
     init(viewController: GroupViewController,
          dataSource: GroupRouterDataSource,
          dataDestination: GroupRouterDataDestination) {
@@ -35,15 +39,25 @@ class GroupRouter: GroupRouterInput {
     }
     
     func passDataToNextScene(segue: UIStoryboardSegue) {
-        // NOTE: Teach the router which scenes it can communicate with
+        guard let segueIdentifier = segue.identifier else {
+            return
+        }
         
+        switch segueIdentifier {
+        case SegueIdentifiers.addExpense:
+            passDataToAddExpenseScene(segue: segue)
+        default:
+            return
+        }
     }
     
-    func navigateToCreatePayment(group: SchplitGroup) {
-        let createGroupViewController = viewController.storyboard?.instantiateViewController(withIdentifier: "AddExpenseViewController") as! AddExpenseViewController
-        
-        createGroupViewController.group = group
-        
-        viewController.navigationController?.pushViewController(createGroupViewController, animated: false)
+    private func passDataToAddExpenseScene(segue: UIStoryboardSegue) {
+        if let addExpenseViewController = segue.destination as? AddExpenseViewController {
+            addExpenseViewController.router.dataDestination.group = dataSource.group
+        }
+    }
+    
+    func navigateToAddExpense() {
+        viewController.performSegue(withIdentifier: SegueIdentifiers.addExpense, sender: viewController)
     }
 }

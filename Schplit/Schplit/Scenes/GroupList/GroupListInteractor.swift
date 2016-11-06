@@ -29,6 +29,10 @@ extension GroupListInteractor: GroupListViewControllerOutput {
         let groups = groupService.getGroups()
         output.presentGroups(groups: groups)
     }
+    
+    func didSelect(group: SchplitGroup) {
+        selectedGroup = group
+    }
 }
 
 extension GroupListInteractor: GroupListRouterDataSource {

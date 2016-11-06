@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 protocol GroupViewDelegate {
-    func newPaymentButtonClicked()
+    func newExpenseButtonClicked()
 }
 
 class GroupView: NibLoadingView {
@@ -22,7 +22,7 @@ class GroupView: NibLoadingView {
         
     }
     
-    @IBAction func newPaymentButtonClicked(_ sender: UIButton) {
-        viewController.newPaymentButtonClicked()
+    @IBAction func newExpenseButtonClicked(_ sender: UIButton) {
+        viewController.newExpenseButtonClicked()
     }
 }

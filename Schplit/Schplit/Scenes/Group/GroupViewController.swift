@@ -9,14 +9,11 @@
 import UIKit
 
 protocol GroupViewControllerOutput {
-    func viewDidLoad(group: SchplitGroup)
+    func viewDidLoad()
 }
 
 class GroupViewController: UIViewController {
     @IBOutlet weak var groupView: GroupView!
-    
-    // Set by SchplitGroup when navigating here
-    var group: SchplitGroup!
     
     var output: GroupViewControllerOutput!
     var router: GroupRouter!
@@ -30,13 +27,17 @@ class GroupViewController: UIViewController {
         super.viewDidLoad()
         groupView.viewController = self
         
-        output.viewDidLoad(group: group)
+        output.viewDidLoad()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        router.passDataToNextScene(segue: segue)
     }
 }
 
 extension GroupViewController: GroupViewDelegate {
-    func newPaymentButtonClicked() {
-        router.navigateToCreatePayment(group: group)
+    func newExpenseButtonClicked() {
+        router.navigateToAddExpense()
     }
 }
 

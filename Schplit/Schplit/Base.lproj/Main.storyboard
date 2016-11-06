@@ -108,14 +108,14 @@
                     </view>
                     <connections>
                         <outlet property="groupView" destination="DXp-UM-R8b" id="Nl4-E7-S67"/>
-                        <segue destination="Wi9-Mk-eKo" kind="show" id="4JG-Dg-fjj"/>
+                        <segue destination="Wi9-Mk-eKo" kind="show" identifier="ShowAddExpenseScene" id="4JG-Dg-fjj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pxu-s5-fCp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-7" y="804"/>
         </scene>
-        <!--New payment-->
+        <!--New expense-->
         <scene sceneID="hVj-rI-3g5">
             <objects>
                 <viewController storyboardIdentifier="AddExpenseViewController" id="Wi9-Mk-eKo" customClass="AddExpenseViewController" customModule="Schplit" customModuleProvider="target" sceneMemberID="viewController">
@@ -140,7 +140,7 @@
                             <constraint firstAttribute="trailing" secondItem="GnF-uy-gZi" secondAttribute="trailing" id="o39-nw-goa"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="New payment" id="BdU-W1-Wl6"/>
+                    <navigationItem key="navigationItem" title="New expense" id="BdU-W1-Wl6"/>
                     <connections>
                         <outlet property="addExpenseView" destination="GnF-uy-gZi" id="8Yz-Ou-jVe"/>
                     </connections>

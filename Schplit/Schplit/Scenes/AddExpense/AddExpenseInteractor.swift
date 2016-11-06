@@ -16,13 +16,11 @@ class AddExpenseInteractor {
     
     var output: AddExpenseInteractorOutput!
     
-    // MARK: Business logic
-    
-
+    internal var group: SchplitGroup!
 }
 
 extension AddExpenseInteractor: AddExpenseViewControllerOutput {
-    func viewDidLoad(group: SchplitGroup) {
+    func viewDidLoad() {
         output.viewDidLoad(group: group)
     }
 }

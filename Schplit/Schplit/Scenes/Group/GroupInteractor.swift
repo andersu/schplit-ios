@@ -24,7 +24,7 @@ class GroupInteractor {
 }
 
 extension GroupInteractor: GroupViewControllerOutput {
-    func viewDidLoad(group: SchplitGroup) {
+    func viewDidLoad() {
         output.viewDidLoad(group: group)
     }
 }

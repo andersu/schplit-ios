@@ -45,14 +45,10 @@ class GroupListRouter: GroupListRouterInput {
     }
     
     func navigateToGroupScene(group: SchplitGroup) {
-        let groupViewController = viewController.storyboard?.instantiateViewController(withIdentifier: "GroupViewController") as! GroupViewController
-        groupViewController.group = group
-        
-        viewController.navigationController?.pushViewController(groupViewController, animated: true)
+        viewController.performSegue(withIdentifier: SegueIdentifiers.group, sender: viewController)
     }
     
     func passDataToNextScene(segue: UIStoryboardSegue) {
-        // NOTE: Teach the router which scenes it can communicate with
         guard let segueIdentifier = segue.identifier else {
             return
         }
@@ -65,7 +61,7 @@ class GroupListRouter: GroupListRouterInput {
         }
     }
     
-    func passDataToGroupScene(segue:UIStoryboardSegue) {
+    func passDataToGroupScene(segue: UIStoryboardSegue) {
         if let groupViewController = segue.destination as? GroupViewController {
             groupViewController.router.dataDestination.group = dataSource.selectedGroup
         }

@@ -10,6 +10,7 @@ import UIKit
 
 protocol GroupListViewControllerOutput {
     func viewWillAppear()
+    func didSelect(group: SchplitGroup)
 }
 
 class GroupListViewController: UIViewController {
@@ -44,6 +45,7 @@ extension GroupListViewController: GroupListViewDelegate {
     }
     
     func didSelect(group: SchplitGroup) {
+        output.didSelect(group: group)
         router.navigateToGroupScene(group: group)
     }
 }

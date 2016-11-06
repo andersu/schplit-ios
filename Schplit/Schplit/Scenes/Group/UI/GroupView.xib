@@ -19,7 +19,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTa-cA-g4t">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expenses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTa-cA-g4t">
                     <rect key="frame" x="16" y="16" width="343" height="24"/>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                     <nil key="textColor"/>
@@ -36,11 +36,11 @@
                         <constraint firstAttribute="height" constant="50" id="QSQ-wV-o3H"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                    <state key="normal" title="New payment">
+                    <state key="normal" title="New expense">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="newPaymentButtonClicked:" destination="-1" eventType="touchUpInside" id="hLM-9Y-ZAM"/>
+                        <action selector="newExpenseButtonClicked:" destination="-1" eventType="touchUpInside" id="EPd-p8-Sbx"/>
                     </connections>
                 </button>
             </subviews>

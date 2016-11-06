@@ -9,7 +9,7 @@
 import UIKit
 
 protocol AddExpenseViewControllerOutput {
-    func viewDidLoad(group: SchplitGroup)
+    func viewDidLoad()
 }
 
 class AddExpenseViewController: UIViewController {
@@ -17,9 +17,6 @@ class AddExpenseViewController: UIViewController {
     
     var output: AddExpenseViewControllerOutput!
     var router: AddExpenseRouter!
-    
-    // Set by GroupRouter when navigating here
-    var group: SchplitGroup!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -29,7 +26,7 @@ class AddExpenseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         addExpenseView.viewController = self
-        output.viewDidLoad(group: group)
+        output.viewDidLoad()
     }
 }
 

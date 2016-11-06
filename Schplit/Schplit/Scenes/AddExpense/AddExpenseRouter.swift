@@ -17,7 +17,7 @@ protocol AddExpenseRouterDataSource: class {
 }
 
 protocol AddExpenseRouterDataDestination: class {
-    
+    var group: SchplitGroup! {get set}
 }
 
 class AddExpenseRouter: AddExpenseRouterInput {
