@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		492BA14AC4D21FF919330997 /* Pods_Schplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B125B289520043FC976DD05 /* Pods_Schplit.framework */; };
+		9F3DC24D1DDE35700084660F /* WhoPaidSuggestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3DC24C1DDE35700084660F /* WhoPaidSuggestionCell.swift */; };
+		9F3DC24F1DDE35AE0084660F /* WhoPaidSuggestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F3DC24E1DDE35AE0084660F /* WhoPaidSuggestionCell.xib */; };
 		9F55C95C1DCE9F190074423B /* AddExpenseConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55C9561DCE9F190074423B /* AddExpenseConfigurator.swift */; };
 		9F55C95D1DCE9F190074423B /* AddExpenseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55C9571DCE9F190074423B /* AddExpenseInteractor.swift */; };
 		9F55C95E1DCE9F190074423B /* AddExpensePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55C9581DCE9F190074423B /* AddExpensePresenter.swift */; };
@@ -80,6 +82,8 @@
 		7941BC193422552E5543FD0B /* Pods_SchplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchplitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABE3F0B1C095C63D78B4FF4 /* Pods-SchplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchplitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchplitTests/Pods-SchplitTests.release.xcconfig"; sourceTree = "<group>"; };
 		7C3EDCB2AE5339F3B4C3F988 /* Pods-Schplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schplit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Schplit/Pods-Schplit.release.xcconfig"; sourceTree = "<group>"; };
+		9F3DC24C1DDE35700084660F /* WhoPaidSuggestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhoPaidSuggestionCell.swift; sourceTree = "<group>"; };
+		9F3DC24E1DDE35AE0084660F /* WhoPaidSuggestionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhoPaidSuggestionCell.xib; sourceTree = "<group>"; };
 		9F55C9561DCE9F190074423B /* AddExpenseConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseConfigurator.swift; sourceTree = "<group>"; };
 		9F55C9571DCE9F190074423B /* AddExpenseInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseInteractor.swift; sourceTree = "<group>"; };
 		9F55C9581DCE9F190074423B /* AddExpensePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpensePresenter.swift; sourceTree = "<group>"; };
@@ -176,6 +180,8 @@
 				9F55C9661DCEA0270074423B /* AddExpenseView.xib */,
 				9F55C9691DCEA1EA0074423B /* PaymentSchplitterCell.swift */,
 				9F55C96A1DCEA1EA0074423B /* PaymentSchplitterCell.xib */,
+				9F3DC24C1DDE35700084660F /* WhoPaidSuggestionCell.swift */,
+				9F3DC24E1DDE35AE0084660F /* WhoPaidSuggestionCell.xib */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -519,6 +525,7 @@
 				9F8E1B971DCE8B0F0078BD71 /* GroupView.xib in Resources */,
 				9FC1ABD71DBA93F80024FDBE /* Assets.xcassets in Resources */,
 				9FC1ABD21DBA93F80024FDBE /* Main.storyboard in Resources */,
+				9F3DC24F1DDE35AE0084660F /* WhoPaidSuggestionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +650,7 @@
 				9F55C95E1DCE9F190074423B /* AddExpensePresenter.swift in Sources */,
 				9F8E1B901DCE8A250078BD71 /* GroupPresenter.swift in Sources */,
 				9F8E1B781DCE88230078BD71 /* SchplitterCell.swift in Sources */,
+				9F3DC24D1DDE35700084660F /* WhoPaidSuggestionCell.swift in Sources */,
 				9FC1AC2C1DBAC5AF0024FDBE /* GroupRepository.swift in Sources */,
 				9FC78DA41DCE813E001E8520 /* GroupListRouter.swift in Sources */,
 				9F55C95D1DCE9F190074423B /* AddExpenseInteractor.swift in Sources */,

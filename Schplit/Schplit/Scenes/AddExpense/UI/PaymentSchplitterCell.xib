@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -18,23 +21,31 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Yq-Mb-MJl">
+                    <rect key="frame" x="81" y="13.5" width="170.5" height="19.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0gB-FT-U2E">
+                    <rect key="frame" x="267.5" y="8" width="91.5" height="30"/>
                     <nil key="textColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T92-h3-EHF">
+                    <rect key="frame" x="16" y="8" width="51" height="31"/>
+                    <color key="onTintColor" red="0.59215686270000001" green="0.40784313729999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                </switch>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="4Yq-Mb-MJl" firstAttribute="centerY" secondItem="0gB-FT-U2E" secondAttribute="centerY" id="4qY-XK-79A"/>
                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="0gB-FT-U2E" secondAttribute="bottom" constant="8" id="DcJ-Bb-cM9"/>
+                <constraint firstItem="T92-h3-EHF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="H0E-cH-eUy"/>
                 <constraint firstItem="0gB-FT-U2E" firstAttribute="leading" secondItem="4Yq-Mb-MJl" secondAttribute="trailing" constant="16" id="Jly-UE-0uF"/>
+                <constraint firstItem="4Yq-Mb-MJl" firstAttribute="leading" secondItem="T92-h3-EHF" secondAttribute="trailing" constant="16" id="KYO-tK-M5e"/>
+                <constraint firstItem="T92-h3-EHF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Qcf-Fn-z9A"/>
                 <constraint firstItem="0gB-FT-U2E" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="jG4-tN-Llz"/>
-                <constraint firstItem="4Yq-Mb-MJl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="rm9-5I-Vsu"/>
                 <constraint firstAttribute="trailing" secondItem="0gB-FT-U2E" secondAttribute="trailing" constant="16" id="uvZ-GZ-D2k"/>
             </constraints>
         </view>
